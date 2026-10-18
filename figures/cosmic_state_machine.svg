@@ -1,0 +1,61 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">宇宙状态机计算架构图与离散因果网格 (图 6-1)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">Cosmic Digital Physics: Planck Scale Discretization vs. Computer Architecture Mapping</text>
+  
+  <g transform="translate(60, 110)">
+    <!-- Table Header -->
+    <rect x="0" y="0" width="880" height="45" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="40" y="28" fill="#58a6ff" font-size="13" font-weight="bold">物理学现象 (自然物理底层)</text>
+    <text x="460" y="28" fill="#3fb950" font-size="13" font-weight="bold">计算机科学 / 信息论对应映射</text>
+    
+    <!-- Row 1 -->
+    <g transform="translate(0, 55)">
+      <rect x="0" y="0" width="880" height="65" rx="4" fill="#21262d"/>
+      <text x="40" y="26" fill="#f0f6fc" font-size="12" font-weight="bold">普朗克长度 (Planck Length: lp ≈ 1.6×10⁻³⁵ m)</text>
+      <text x="40" y="48" fill="#8b949e" font-size="11">空间不再连续可分，存在不可突破的几何截断</text>
+      
+      <text x="460" y="26" fill="#3fb950" font-size="12" font-weight="bold">宇宙状态机的最小离散“屏幕像素 (Voxel)”</text>
+      <text x="460" y="48" fill="#8b949e" font-size="11">世界由有限精度的三维离散几何网格编织而成</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0, 130)">
+      <rect x="0" y="0" width="880" height="65" rx="4" fill="#161b22"/>
+      <text x="40" y="26" fill="#f0f6fc" font-size="12" font-weight="bold">普朗克时间 (Planck Time: tp ≈ 5.4×10⁻⁴⁴ s)</text>
+      <text x="40" y="48" fill="#8b949e" font-size="11">时间不是平滑流体，而是逐帧跳跃的最小因果节律</text>
+      
+      <text x="460" y="26" fill="#3fb950" font-size="12" font-weight="bold">宇宙处理器的单次“系统时钟周期 (Clock Tick)”</text>
+      <text x="460" y="48" fill="#8b949e" font-size="11">全宇宙以 10⁴³ Hz 的基准频率执行不可跳步的状态更新</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(0, 205)">
+      <rect x="0" y="0" width="880" height="65" rx="4" fill="#21262d"/>
+      <text x="40" y="26" fill="#f0f6fc" font-size="12" font-weight="bold">真空中光速 (Speed of Light: c ≈ 3×10⁸ m/s)</text>
+      <text x="40" y="48" fill="#8b949e" font-size="11">任何相互作用与信息传播的绝对宇宙速度硬顶</text>
+      
+      <text x="460" y="26" fill="#3fb950" font-size="12" font-weight="bold">因果网格相邻节点间的“最大总线带宽 (Bus Latency)”</text>
+      <text x="460" y="48" fill="#8b949e" font-size="11">局域时钟无法超距通信，禁止超光速以维持因果一致性</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(0, 280)">
+      <rect x="0" y="0" width="880" height="65" rx="4" fill="#161b22"/>
+      <text x="40" y="26" fill="#f0f6fc" font-size="12" font-weight="bold">量子波函数叠加与纠缠坍缩 (Collapse)</text>
+      <text x="40" y="48" fill="#8b949e" font-size="11">未被测量的粒子处于多态叠加，测量时瞬间离散定域</text>
+      
+      <text x="460" y="26" fill="#3fb950" font-size="12" font-weight="bold">节约全局算力开销的“惰性求值策略 (Lazy Evaluation)”</text>
+      <text x="460" y="48" fill="#8b949e" font-size="11">没有观察者交互时仅保留概率指针，交互时才强制实例化</text>
+    </g>
+
+    <!-- Row 5 -->
+    <g transform="translate(0, 355)">
+      <rect x="0" y="0" width="880" height="65" rx="4" fill="#21262d"/>
+      <text x="40" y="26" fill="#f0f6fc" font-size="12" font-weight="bold">热力学第二定律 (熵增单向箭头: ΔS &gt; 0)</text>
+      <text x="40" y="48" fill="#8b949e" font-size="11">不可逆的时间流动，能量退化为低温无序热能</text>
+      
+      <text x="460" y="26" fill="#3fb950" font-size="12" font-weight="bold">信息擦除触发的“朗道尔废热耗散 (Landauer Dissipation)”</text>
+      <text x="460" y="48" fill="#8b949e" font-size="11">宏观时间流逝不是客观实在，是内部寄存器刷新覆盖的代价</text>
+    </g>
+  </g>
+</svg>

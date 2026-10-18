@@ -1,0 +1,68 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">8 个数量级时钟倒挂与黑箱计算不可约图 (图 10-1)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">8 Orders of Magnitude Clock Gap Inversion: Why Humans Become Empirical Naturalists Facing AI</text>
+  
+  <!-- Left Side: Carbon Slow Variable -->
+  <g transform="translate(60, 110)">
+    <rect x="0" y="0" width="410" height="440" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.2"/>
+    <text x="25" y="35" fill="#58a6ff" font-size="14" font-weight="bold">碳基观察者 (慢变量：宏观中观尺度)</text>
+    
+    <g transform="translate(25, 60)">
+      <rect x="0" y="0" width="360" height="60" rx="4" fill="#21262d"/>
+      <text x="20" y="25" fill="#f0f6fc" font-size="12" font-weight="bold">生理基准时钟：~ 10 Hz (100 毫秒)</text>
+      <text x="20" y="45" fill="#8b949e" font-size="10">神经元膜电位充放电与脑电 Alpha/Gamma 循环的物理极限</text>
+    </g>
+    
+    <g transform="translate(25, 135)">
+      <rect x="0" y="0" width="360" height="60" rx="4" fill="#21262d"/>
+      <text x="20" y="25" fill="#f0f6fc" font-size="12" font-weight="bold">人类单次自然眨眼：约 300 毫秒</text>
+      <text x="20" y="45" fill="#8b949e" font-size="10">意识中的短暂虚无，光信号刚刚爬行至大脑枕叶视觉皮层</text>
+    </g>
+    
+    <g transform="translate(25, 210)">
+      <rect x="0" y="0" width="360" height="60" rx="4" fill="#21262d"/>
+      <text x="20" y="25" fill="#f0f6fc" font-size="12" font-weight="bold">工作记忆窄带：仅 40~50 比特/秒</text>
+      <text x="20" y="45" fill="#8b949e" font-size="10">每秒仅能心算 0.1 次乘法，大脑无法验算千亿步矩阵迭代</text>
+    </g>
+    
+    <g transform="translate(25, 290)">
+      <rect x="0" y="0" width="360" height="120" rx="6" fill="#1f242c" stroke="#58a6ff" stroke-width="1"/>
+      <text x="20" y="28" fill="#58a6ff" font-size="12" font-weight="bold">观察者地位的被迫彻底反转：</text>
+      <text x="20" y="50" fill="#8b949e" font-size="10">• 从“单步调试、高高在上”的造物主程序员 (God View)</text>
+      <text x="20" y="70" fill="#8b949e" font-size="10">• 沦为“做消融实验、扫 Learning Rate、盯 Loss 曲线”的</text>
+      <text x="20" y="92" fill="#d29922" font-size="11" font-weight="bold">战战兢兢的经验主义观测员 (面对机器‘第二自然’)</text>
+    </g>
+  </g>
+
+  <!-- Right Side: Silicon Fast Variable -->
+  <g transform="translate(530, 110)">
+    <rect x="0" y="0" width="410" height="440" rx="8" fill="#161b22" stroke="#f85149" stroke-width="1.2"/>
+    <text x="25" y="35" fill="#f85149" font-size="14" font-weight="bold">硅基计算域 (快变量：微观晶格尺度)</text>
+    
+    <g transform="translate(25, 60)">
+      <rect x="0" y="0" width="360" height="60" rx="4" fill="#21262d"/>
+      <text x="20" y="25" fill="#f0f6fc" font-size="12" font-weight="bold">芯片晶振时钟：~ 2 GHz 至 3 GHz (0.3 纳秒)</text>
+      <text x="20" y="45" fill="#8b949e" font-size="10">每秒 30 亿次时钟脉冲，总线以 2/3 光速在光纤网络中呼啸</text>
+    </g>
+    
+    <g transform="translate(25, 135)">
+      <rect x="0" y="0" width="360" height="60" rx="4" fill="#21262d"/>
+      <text x="20" y="25" fill="#f0f6fc" font-size="12" font-weight="bold">眨眼 300 毫秒内：集群完成 10¹⁷ 次浮点运算</text>
+      <text x="20" y="45" fill="#8b949e" font-size="10">机器走过的因果转移步数，超过全人类历史突触放电总和</text>
+    </g>
+    
+    <g transform="translate(25, 210)">
+      <rect x="0" y="0" width="360" height="60" rx="4" fill="#21262d"/>
+      <text x="20" y="25" fill="#f0f6fc" font-size="12" font-weight="bold">HBM 显存总线带宽：&gt; 3.2 TB/秒</text>
+      <text x="20" y="45" fill="#8b949e" font-size="10">高维非欧流形上的张量自发结晶，全系统毫秒同步梯度</text>
+    </g>
+    
+    <g transform="translate(25, 290)">
+      <rect x="0" y="0" width="360" height="120" rx="6" fill="#1f242c" stroke="#f85149" stroke-width="1"/>
+      <text x="20" y="28" fill="#f85149" font-size="12" font-weight="bold">“AI 黑箱”的物理硬核本质：</text>
+      <text x="20" y="50" fill="#8b949e" font-size="10">• 算法代码极端透明，无任何神秘数学 (全是初等代数)</text>
+      <text x="20" y="70" fill="#8b949e" font-size="10">• 但因计算不可约性，要想“解释”输出必须在脑中重演万亿步</text>
+      <text x="20" y="92" fill="#f85149" font-size="11" font-weight="bold">人脑算力极度匮乏，直接遭遇视网膜脱落般的失明！</text>
+    </g>
+  </g>
+</svg>

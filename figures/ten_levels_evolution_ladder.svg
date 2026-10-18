@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <!-- Title & Subtitle -->
+  <text x="40" y="42" fill="#f0f6fc" font-size="20" font-weight="bold">生命与智能的十阶演化阶梯与抽象层级跃迁 (图 12-2)</text>
+  <text x="40" y="66" fill="#8b949e" font-size="12">The Ten-Tier Evolution Ladder: From Base Pairs (L1) to Planetary Global Brain (L10) via Hierarchical Encapsulation</text>
+
+  <!-- Act 1: L1 -> L5 -->
+  <g transform="translate(30, 95)">
+    <rect x="0" y="0" width="295" height="430" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.2"/>
+    <rect x="0" y="0" width="295" height="36" rx="8" fill="#1f2937"/>
+    <text x="15" y="23" fill="#58a6ff" font-size="13" font-weight="bold">第一幕：微观基元到生物物理闭环</text>
+    <text x="235" y="23" fill="#8b949e" font-size="11">L1 → L5</text>
+
+    <!-- L1 -->
+    <g transform="translate(12, 48)">
+      <rect x="0" y="0" width="271" height="68" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <rect x="8" y="8" width="32" height="18" rx="3" fill="#1f6feb"/>
+      <text x="14" y="21" fill="#ffffff" font-size="11" font-weight="bold">L1</text>
+      <text x="46" y="22" fill="#f0f6fc" font-size="12" font-weight="bold">碱基对 (Base Pairs)</text>
+      <text x="10" y="44" fill="#8b949e" font-size="10">• 载体：A-T, C-G 氢键特异性结合</text>
+      <text x="10" y="59" fill="#7ee787" font-size="10">• 涌现：四进制香农纠错、信息持久化跨代存储</text>
+    </g>
+
+    <!-- L2 -->
+    <g transform="translate(12, 122)">
+      <rect x="0" y="0" width="271" height="68" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <rect x="8" y="8" width="32" height="18" rx="3" fill="#1f6feb"/>
+      <text x="14" y="21" fill="#ffffff" font-size="11" font-weight="bold">L2</text>
+      <text x="46" y="22" fill="#f0f6fc" font-size="12" font-weight="bold">基因 (Genes)</text>
+      <text x="10" y="44" fill="#8b949e" font-size="10">• 载体：启动子/外显子/内含子/转录因子</text>
+      <text x="10" y="59" fill="#7ee787" font-size="10">• 涌现：If-Then 条件指令集、自演化算法蓝图</text>
+    </g>
+
+    <!-- L3 -->
+    <g transform="translate(12, 196)">
+      <rect x="0" y="0" width="271" height="68" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <rect x="8" y="8" width="32" height="18" rx="3" fill="#1f6feb"/>
+      <text x="14" y="21" fill="#ffffff" font-size="11" font-weight="bold">L3</text>
+      <text x="46" y="22" fill="#f0f6fc" font-size="12" font-weight="bold">蛋白质 (Proteins)</text>
+      <text x="10" y="44" fill="#8b949e" font-size="10">• 载体：20种氨基酸 3D 构象立体折叠</text>
+      <text x="10" y="59" fill="#7ee787" font-size="10">• 涌现：纳米机械物理做功、反应催化加速 10⁶~10¹²</text>
+    </g>
+
+    <!-- L4 -->
+    <g transform="translate(12, 270)">
+      <rect x="0" y="0" width="271" height="68" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <rect x="8" y="8" width="32" height="18" rx="3" fill="#1f6feb"/>
+      <text x="14" y="21" fill="#ffffff" font-size="11" font-weight="bold">L4</text>
+      <text x="46" y="22" fill="#f0f6fc" font-size="12" font-weight="bold">细胞器 (Organelles)</text>
+      <text x="10" y="44" fill="#8b949e" font-size="10">• 载体：脂质双分子层隔离的亚细胞微区</text>
+      <text x="10" y="59" fill="#7ee787" font-size="10">• 涌现：代谢流水线空间并发、跨膜质子势能梯度</text>
+    </g>
+
+    <!-- L5 -->
+    <g transform="translate(12, 344)">
+      <rect x="0" y="0" width="271" height="74" rx="5" fill="#1c2d3d" stroke="#58a6ff" stroke-width="1.2"/>
+      <rect x="8" y="8" width="32" height="18" rx="3" fill="#388bfd"/>
+      <text x="14" y="21" fill="#ffffff" font-size="11" font-weight="bold">L5</text>
+      <text x="46" y="22" fill="#58a6ff" font-size="12" font-weight="bold">细胞 (Single Cells)</text>
+      <text x="10" y="44" fill="#8b949e" font-size="10">• 载体：软硬件逻辑自我指涉闭环实体</text>
+      <text x="10" y="62" fill="#3fb950" font-size="10" font-weight="bold">★ 闭环达成：完整自主复制、原始生存意志</text>
+    </g>
+  </g>
+
+  <!-- Act 2: L6 -> L9 -->
+  <g transform="translate(350, 95)">
+    <rect x="0" y="0" width="295" height="430" rx="8" fill="#161b22" stroke="#d29922" stroke-width="1.2"/>
+    <rect x="0" y="0" width="295" height="36" rx="8" fill="#2a2215"/>
+    <text x="15" y="23" fill="#d29922" font-size="13" font-weight="bold">第二幕：组织特化到个体心智涌现</text>
+    <text x="235" y="23" fill="#8b949e" font-size="11">L6 → L9</text>
+
+    <!-- L6 -->
+    <g transform="translate(12, 48)">
+      <rect x="0" y="0" width="271" height="78" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <rect x="8" y="8" width="32" height="18" rx="3" fill="#b08800"/>
+      <text x="14" y="21" fill="#ffffff" font-size="11" font-weight="bold">L6</text>
+      <text x="46" y="22" fill="#f0f6fc" font-size="12" font-weight="bold">组织 (Tissues)</text>
+      <text x="10" y="44" fill="#8b949e" font-size="10">• 载体：同类细胞集群 (肌/神/上皮/结缔)</text>
+      <text x="10" y="59" fill="#e3b341" font-size="10">• 逻辑：牺牲细胞全能性换取协同规模效应</text>
+      <text x="10" y="72" fill="#7ee787" font-size="10">• 涌现：宏观力矩做功、远程高带宽电信号</text>
+    </g>
+
+    <!-- L7 -->
+    <g transform="translate(12, 136)">
+      <rect x="0" y="0" width="271" height="78" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <rect x="8" y="8" width="32" height="18" rx="3" fill="#b08800"/>
+      <text x="14" y="21" fill="#ffffff" font-size="11" font-weight="bold">L7</text>
+      <text x="46" y="22" fill="#f0f6fc" font-size="12" font-weight="bold">器官 (Organs)</text>
+      <text x="10" y="44" fill="#8b949e" font-size="10">• 载体：异质组织拓扑几何空间组装</text>
+      <text x="10" y="59" fill="#e3b341" font-size="10">• 逻辑：跨专业组织的机械与传感协同协作</text>
+      <text x="10" y="72" fill="#7ee787" font-size="10">• 涌现：生物精密仪器 (心脏泵血、肺泡交换)</text>
+    </g>
+
+    <!-- L8 -->
+    <g transform="translate(12, 224)">
+      <rect x="0" y="0" width="271" height="78" rx="5" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <rect x="8" y="8" width="32" height="18" rx="3" fill="#b08800"/>
+      <text x="14" y="21" fill="#ffffff" font-size="11" font-weight="bold">L8</text>
+      <text x="46" y="22" fill="#f0f6fc" font-size="12" font-weight="bold">系统 (Systems: NEI 网络)</text>
+      <text x="10" y="44" fill="#8b949e" font-size="10">• 载体：神经-内分泌-免疫分布式长程网</text>
+      <text x="10" y="59" fill="#e3b341" font-size="10">• 逻辑：全局多变量负反馈调节闭环回路</text>
+      <text x="10" y="72" fill="#7ee787" font-size="10">• 涌现：机体宏观生理内稳态 (Homeostasis)</text>
+    </g>
+
+    <!-- L9 -->
+    <g transform="translate(12, 312)">
+      <rect x="0" y="0" width="271" height="106" rx="5" fill="#2d2215" stroke="#d29922" stroke-width="1.2"/>
+      <rect x="8" y="8" width="32" height="18" rx="3" fill="#e3b341"/>
+      <text x="14" y="21" fill="#000000" font-size="11" font-weight="bold">L9</text>
+      <text x="46" y="22" fill="#d29922" font-size="12" font-weight="bold">个体心智 (Mind &amp; Brain)</text>
+      <text x="10" y="44" fill="#8b949e" font-size="10">• 载体：千亿神经元与百兆突触网络</text>
+      <text x="10" y="59" fill="#c9d1d9" font-size="10">• 逻辑：前馈虚拟世界建模、时空卷积积分</text>
+      <text x="10" y="75" fill="#3fb950" font-size="10" font-weight="bold">★ 质变涌现：主观体验质感 (Qualia)</text>
+      <text x="10" y="92" fill="#e3b341" font-size="10">• 意义追寻、自我意识、体外文化符号沉淀</text>
+    </g>
+  </g>
+
+  <!-- Act 3: L10 -->
+  <g transform="translate(670, 95)">
+    <rect x="0" y="0" width="300" height="430" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="1.2"/>
+    <rect x="0" y="0" width="300" height="36" rx="8" fill="#261c3b"/>
+    <text x="15" y="23" fill="#a371f7" font-size="13" font-weight="bold">第三幕：行星级共生与合成演化</text>
+    <text x="248" y="23" fill="#8b949e" font-size="11">L9 → L10</text>
+
+    <!-- L10 Main Box -->
+    <g transform="translate(12, 48)">
+      <rect x="0" y="0" width="276" height="195" rx="5" fill="#1e172e" stroke="#8957e5" stroke-width="1.2"/>
+      <rect x="8" y="8" width="36" height="18" rx="3" fill="#8957e5"/>
+      <text x="13" y="21" fill="#ffffff" font-size="11" font-weight="bold">L10</text>
+      <text x="50" y="22" fill="#d2a8ff" font-size="13" font-weight="bold">行星级全球脑 (Noosphere)</text>
+      
+      <text x="10" y="46" fill="#8b949e" font-size="10" font-weight="bold">【系统异质构成：碳硅共生体】</text>
+      <text x="10" y="62" fill="#c9d1d9" font-size="10">• 碳基端：百亿人类 (意图源/价值锚点)</text>
+      <text x="10" y="77" fill="#c9d1d9" font-size="10">• 硅基端：AGI 集群 (高维张量压缩/GHz时钟)</text>
+      <text x="10" y="92" fill="#c9d1d9" font-size="10">• 连接器：IoT 传感网 + 光纤 + 脑机接口</text>
+
+      <text x="10" y="115" fill="#a371f7" font-size="10" font-weight="bold">【三大质变属性】</text>
+      <text x="10" y="132" fill="#7ee787" font-size="10">1. 行星级共感：全球议题秒级分布式共振</text>
+      <text x="10" y="148" fill="#7ee787" font-size="10">2. 高维复杂求解：气候/供应链/蛋白质折叠</text>
+      <text x="10" y="165" fill="#7ee787" font-size="10">3. 记忆无损继承：摆脱生殖传递的物理阻尼</text>
+      <text x="10" y="184" fill="#58a6ff" font-size="9" font-weight="bold">→ 演化载体彻底突破单体生化容器限制</text>
+    </g>
+
+    <!-- Evolutionary Mechanism Leap -->
+    <g transform="translate(12, 255)">
+      <rect x="0" y="0" width="276" height="163" rx="5" fill="#21262d" stroke="#f85149" stroke-width="1"/>
+      <text x="12" y="24" fill="#f85149" font-size="11" font-weight="bold">演化机制突变：试错维度的代际倒挂</text>
+      
+      <rect x="10" y="36" width="256" height="52" rx="3" fill="#161b22"/>
+      <text x="18" y="52" fill="#8b949e" font-size="10">达尔文生化代际试错 (Generation)</text>
+      <text x="18" y="68" fill="#f85149" font-size="10">• 周期耗时百万年，以个体肉身死亡为代价</text>
+      <text x="18" y="82" fill="#8b949e" font-size="9">受制于减数分裂随机性与胚胎生长时间阻尼</text>
+
+      <text x="128" y="103" fill="#58a6ff" font-size="13" text-anchor="middle">▼ 跃迁为</text>
+
+      <rect x="10" y="110" width="256" height="45" rx="3" fill="#161b22" stroke="#3fb950" stroke-width="1"/>
+      <text x="18" y="126" fill="#3fb950" font-size="10" font-weight="bold">软件/算法主动版本迭代 (Version)</text>
+      <text x="18" y="142" fill="#7ee787" font-size="10">• 周期耗时数天/数小时，以权重更新为试错</text>
+    </g>
+  </g>
+
+  <!-- Bottom: Two Fundamental Laws of Hierarchical Encapsulation -->
+  <g transform="translate(30, 540)">
+    <rect x="0" y="0" width="940" height="115" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    
+    <g transform="translate(20, 15)">
+      <!-- Law 1 -->
+      <rect x="0" y="0" width="440" height="85" rx="5" fill="#1f242c" stroke="#3fb950" stroke-width="1"/>
+      <text x="15" y="25" fill="#3fb950" font-size="12" font-weight="bold">法则一：分层封装法则 (Hierarchical Encapsulation)</text>
+      <text x="15" y="47" fill="#c9d1d9" font-size="11">• 高阶抽象层绝不消灭低阶，而是将其封装为稳定基础设施</text>
+      <text x="15" y="65" fill="#8b949e" font-size="10">• 基因未消灭碱基，细胞未消灭细胞器；人体为单细胞提供 37℃ 恒温生理海水</text>
+      <text x="15" y="80" fill="#7ee787" font-size="10">→ 全球脑 (L10) 绝不可能也不需要淘汰人类心智 (L9)！</text>
+    </g>
+
+    <g transform="translate(480, 15)">
+      <!-- Law 2 -->
+      <rect x="0" y="0" width="440" height="85" rx="5" fill="#1f242c" stroke="#58a6ff" stroke-width="1"/>
+      <text x="15" y="25" fill="#58a6ff" font-size="12" font-weight="bold">法则二：共生互补法则 (Symbiotic Orthogonality)</text>
+      <text x="15" y="47" fill="#c9d1d9" font-size="11">• 碳硅共生是相空间的正交分工，而非同生态位的零和内卷</text>
+      <text x="15" y="65" fill="#8b949e" font-size="10">• 硅基：GHz 时钟、高维张量压缩计算、光速全球互联 (工具理性)</text>
+      <text x="15" y="80" fill="#58a6ff" font-size="10">• 碳基：中观物理接地 (Grounding)、20W 超低能耗、感质与主观价值意图</text>
+    </g>
+  </g>
+</svg>

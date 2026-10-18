@@ -1,0 +1,73 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">福特主义闭环的断裂与价值原子化迁移图 (图 3-1)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">The Breakdown of Fordist Loop vs. Value Migration to Atoms &amp; Context</text>
+  
+  <!-- Left Panel: Classic Fordist Loop -->
+  <g transform="translate(40, 100)">
+    <rect x="0" y="0" width="430" height="460" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <text x="25" y="35" fill="#3fb950" font-size="14" font-weight="bold">20 世纪经典福特主义大循环 (自洽正反馈)</text>
+    
+    <!-- Step 1 -->
+    <rect x="25" y="60" width="380" height="60" rx="6" fill="#21262d" stroke="#3fb950" stroke-width="1"/>
+    <text x="45" y="85" fill="#f0f6fc" font-size="12" font-weight="bold">1. 出卖工时与劳动力</text>
+    <text x="45" y="105" fill="#8b949e" font-size="11">人类提供体能与认知劳动，作为不可替代的核心生产要素</text>
+    
+    <!-- Arrow Down -->
+    <text x="215" y="140" fill="#3fb950" font-size="16" text-anchor="middle">▼ 企业支付 5 美元日薪</text>
+    
+    <!-- Step 2 -->
+    <rect x="25" y="155" width="380" height="60" rx="6" fill="#21262d" stroke="#3fb950" stroke-width="1"/>
+    <text x="45" y="180" fill="#f0f6fc" font-size="12" font-weight="bold">2. 劳动报酬转化为居民可支配收入</text>
+    <text x="45" y="200" fill="#8b949e" font-size="11">薪资不仅是生产成本，更是全社会有效需求的终极蓄水池</text>
+    
+    <!-- Arrow Down -->
+    <text x="215" y="235" fill="#3fb950" font-size="16" text-anchor="middle">▼ 消费购买力释放</text>
+    
+    <!-- Step 3 -->
+    <rect x="25" y="250" width="380" height="60" rx="6" fill="#21262d" stroke="#3fb950" stroke-width="1"/>
+    <text x="45" y="275" fill="#f0f6fc" font-size="12" font-weight="bold">3. 购买工业流水线产出的汽车与商品</text>
+    <text x="45" y="295" fill="#8b949e" font-size="11">工人买得起自己生产的 T 型车，供给被充分消化</text>
+    
+    <!-- Arrow Down -->
+    <text x="215" y="330" fill="#3fb950" font-size="16" text-anchor="middle">▼ 销售收入回流工业母体</text>
+    
+    <!-- Step 4 -->
+    <rect x="25" y="345" width="380" height="60" rx="6" fill="#21262d" stroke="#3fb950" stroke-width="1"/>
+    <text x="45" y="370" fill="#f0f6fc" font-size="12" font-weight="bold">4. 企业盈利追加再投资并雇佣更多劳动力</text>
+    <text x="45" y="390" fill="#8b949e" font-size="11">资本积累与居民福利同步扩张，形成良性中产阶级社会</text>
+    
+    <text x="215" y="435" fill="#3fb950" font-size="12" font-weight="bold" text-anchor="middle">✅ 宏观总供给 = 宏观有效总需求 (稳态均衡)</text>
+  </g>
+
+  <!-- Right Panel: Broken Loop with AI & Value Migration -->
+  <g transform="translate(530, 100)">
+    <rect x="0" y="0" width="430" height="460" rx="8" fill="#161b22" stroke="#f85149" stroke-width="1.2"/>
+    <text x="25" y="35" fill="#f85149" font-size="14" font-weight="bold">当前算法解构后的断裂状态 (有效需求深渊)</text>
+    
+    <!-- Disruption Step 1 -->
+    <rect x="25" y="60" width="380" height="60" rx="6" fill="#21262d" stroke="#f85149" stroke-width="1"/>
+    <text x="45" y="85" fill="#f0f6fc" font-size="12" font-weight="bold">1. 纯数字符号劳动边际成本趋零 (Bits)</text>
+    <text x="45" y="105" fill="#f85149" font-size="11">代码、文案、数据清洗被万亿大模型以几厘钱批量供给</text>
+    
+    <!-- Arrow Down Disrupted -->
+    <text x="215" y="140" fill="#f85149" font-size="16" text-anchor="middle">⚡ 劳动力议价权归零，白领薪资停滞</text>
+    
+    <!-- Disruption Step 2 -->
+    <rect x="25" y="155" width="380" height="60" rx="6" fill="#21262d" stroke="#f85149" stroke-width="1"/>
+    <text x="45" y="180" fill="#f0f6fc" font-size="12" font-weight="bold">2. 居民消费购买力断流 (有效需求真空)</text>
+    <text x="45" y="200" fill="#8b949e" font-size="11">大众失业率攀升，换机周期拉长，普通家庭缩减一切非必要支出</text>
+    
+    <!-- Arrow Down Disrupted -->
+    <text x="215" y="235" fill="#f85149" font-size="16" text-anchor="middle">⚡ 商品虽便宜，但无人有钱买单</text>
+    
+    <!-- Disruption Step 3: Value Migration Matrix -->
+    <rect x="25" y="250" width="380" height="155" rx="6" fill="#1f242c" stroke="#d29922" stroke-width="1"/>
+    <text x="45" y="275" fill="#d29922" font-size="12" font-weight="bold">【价值全社会大撤退象限】</text>
+    <text x="45" y="300" fill="#f85149" font-size="11">• 价值崩塌区 (Bits + 标准化)：初级编程/翻译/文案 ➔ 大宗商品化</text>
+    <text x="45" y="325" fill="#3fb950" font-size="11">• 极端溢价区 (Atoms + 现场)：精密装配/现场调试/公差调校 ➔ 稀缺</text>
+    <text x="45" y="350" fill="#58a6ff" font-size="11">• 责任溢价区 (Accountability)：事故兜底/法律背书/签字担责 ➔ 暴涨</text>
+    <text x="45" y="375" fill="#8b949e" font-size="11">• 资本流向：云巨头 CapEx 暴增，而宏观消费耐用品陷入降价泥潭</text>
+    
+    <text x="215" y="435" fill="#f85149" font-size="12" font-weight="bold" text-anchor="middle">❌ 资本极度集中在算力，而大众陷入通缩循环</text>
+  </g>
+</svg>

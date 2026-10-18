@@ -1,0 +1,56 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">实体与过程的松弛时间-采样窗口相图 (图 8-1)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">Phase Diagram: Entities (Nouns) vs. Processes (Verbs) as a Function of Relaxation Time and Observation Window</text>
+  
+  <!-- Coordinate System -->
+  <g stroke="#21262d" stroke-width="1" stroke-dasharray="3,3">
+    <line x1="120" y1="120" x2="900" y2="120"/>
+    <line x1="120" y1="200" x2="900" y2="200"/>
+    <line x1="120" y1="280" x2="900" y2="280"/>
+    <line x1="120" y1="360" x2="900" y2="360"/>
+    <line x1="120" y1="440" x2="900" y2="440"/>
+  </g>
+
+  <!-- Axes -->
+  <line x1="120" y1="440" x2="900" y2="440" stroke="#8b949e" stroke-width="2"/>
+  <line x1="120" y1="440" x2="120" y2="100" stroke="#8b949e" stroke-width="2"/>
+
+  <text x="105" y="105" fill="#8b949e" font-size="12" text-anchor="end">客体物理松弛时间 τ_rel (对数轴)</text>
+  <text x="900" y="465" fill="#8b949e" font-size="12" text-anchor="end">观察者采样时间窗口 τ_obs (对数轴)</text>
+
+  <!-- Diagonal Phase Boundary Line: τ_rel = τ_obs -->
+  <line x1="120" y1="440" x2="750" y2="120" stroke="#d29922" stroke-width="2.5"/>
+  <text x="760" y="125" fill="#d29922" font-size="12" font-weight="bold">相变分界线 (τ_obs = τ_rel)</text>
+
+  <!-- Region Labels -->
+  <text x="250" y="180" fill="#58a6ff" font-size="15" font-weight="bold">【坚硬实体区 (名词 / Nouns)】</text>
+  <text x="250" y="205" fill="#8b949e" font-size="11">τ_obs &lt;&lt; τ_rel: 客体流变极慢，观察者算力不足，将其粗粒化冻结为静态“实体”</text>
+
+  <text x="600" y="380" fill="#f85149" font-size="15" font-weight="bold">【流变过程区 (动词 / Verbs)】</text>
+  <text x="600" y="405" fill="#8b949e" font-size="11">τ_obs &gt;&gt; τ_rel: 客体状态快速刷新，实体消解为粘稠应力流与概率场</text>
+
+  <!-- Concrete Points -->
+  <!-- Point 1: Mountain -->
+  <circle cx="280" cy="150" r="5" fill="#58a6ff"/>
+  <text x="295" y="155" fill="#f0f6fc" font-size="11">花岗岩高山 (τ_rel ~ 10¹² s) ➔ 人类视其为永恒实体</text>
+
+  <!-- Point 2: Human Body -->
+  <circle cx="280" cy="270" r="5" fill="#58a6ff"/>
+  <text x="295" y="275" fill="#f0f6fc" font-size="11">智人机体 (τ_rel ~ 10⁹ s, 约百年) ➔ 维持自指驻波</text>
+
+  <!-- Point 3: Water Flow -->
+  <circle cx="280" cy="380" r="5" fill="#3fb950"/>
+  <text x="295" y="385" fill="#3fb950" font-size="11">流水与疾风 (τ_rel ~ 10⁻¹ s) ➔ 人类视其为动态过程</text>
+
+  <!-- Point 4: Molecular Collisions -->
+  <circle cx="280" cy="430" r="5" fill="#f85149"/>
+  <text x="295" y="435" fill="#f85149" font-size="11">气体热碰撞 (τ_rel ~ 10⁻¹² s) ➔ 人类将其压缩为“温度”</text>
+
+  <!-- Observer Vertical Markers -->
+  <line x1="280" y1="120" x2="280" y2="440" stroke="#58a6ff" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="280" y="460" fill="#58a6ff" font-size="11" text-anchor="middle">人类生理窗口 (τ ~ 10⁻¹ s)</text>
+
+  <line x1="700" y1="120" x2="700" y2="440" stroke="#8b949e" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="700" y="460" fill="#8b949e" font-size="11" text-anchor="middle">地质级观察者 (τ ~ 10¹³ s)</text>
+  <text x="700" y="480" fill="#8b949e" font-size="10" text-anchor="middle">(喜马拉雅山化为翻滚的粘稠波浪)</text>
+</svg>

@@ -1,0 +1,74 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">具身智能的 Sim-to-Real 鸿沟与热力学阻尼相图 (图 5-1)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">Simulation Sandbox (Bits) vs. Thermodynamic Hard Damping of Heavy Atoms</text>
+  
+  <!-- Left Box: Digital Space -->
+  <g transform="translate(50, 100)">
+    <rect x="0" y="0" width="410" height="460" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="1.2"/>
+    <text x="25" y="35" fill="#388bfd" font-size="14" font-weight="bold">数字仿真空间 (Bits / 虚拟沙盒)</text>
+    
+    <g transform="translate(25, 60)">
+      <rect x="0" y="0" width="360" height="70" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="20" y="28" fill="#f0f6fc" font-size="12" font-weight="bold">GPU 物理引擎 (Isaac Gym / MuJoCo)</text>
+      <text x="20" y="50" fill="#8b949e" font-size="11">并行 10,000 个环境，每秒刷出数亿步抓取与平衡训练</text>
+    </g>
+    
+    <g transform="translate(25, 150)">
+      <rect x="0" y="0" width="360" height="70" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="20" y="28" fill="#f0f6fc" font-size="12" font-weight="bold">理想刚体动力学假定</text>
+      <text x="20" y="50" fill="#8b949e" font-size="11">无摩擦突变、无材料屈服极限、电磁电机无局部温漂</text>
+    </g>
+    
+    <g transform="translate(25, 240)">
+      <rect x="0" y="0" width="360" height="70" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="20" y="28" fill="#f0f6fc" font-size="12" font-weight="bold">报错代价极低 (Throw Exception)</text>
+      <text x="20" y="50" fill="#8b949e" font-size="11">机械臂撞穿墙壁仅消耗数毫瓦时，微秒级重置复位 (Reset)</text>
+    </g>
+    
+    <g transform="translate(25, 330)">
+      <rect x="0" y="0" width="360" height="90" rx="6" fill="#1f242c" stroke="#388bfd" stroke-width="1"/>
+      <text x="20" y="28" fill="#388bfd" font-size="12" font-weight="bold">本体与逻辑彻底解耦 (RMA 换件)</text>
+      <text x="20" y="50" fill="#8b949e" font-size="11">• 算法驻留在云端，毫无物理死亡恐惧</text>
+      <text x="20" y="68" fill="#8b949e" font-size="11">• 外设只是热插拔消耗品，无需演化敬畏感</text>
+    </g>
+  </g>
+
+  <!-- Middle Divider / Barrier: The Sim-to-Real Chasm -->
+  <g transform="translate(475, 100)">
+    <line x1="25" y1="20" x2="25" y2="440" stroke="#f85149" stroke-width="2" stroke-dasharray="6,4"/>
+    <rect x="-10" y="200" width="70" height="70" rx="6" fill="#1f242c" stroke="#f85149" stroke-width="1.5"/>
+    <text x="25" y="230" fill="#f85149" font-size="11" font-weight="bold" text-anchor="middle">Sim-to-Real</text>
+    <text x="25" y="250" fill="#f85149" font-size="11" font-weight="bold" text-anchor="middle">热力学断层</text>
+  </g>
+
+  <!-- Right Box: Physical Reality -->
+  <g transform="translate(540, 100)">
+    <rect x="0" y="0" width="410" height="460" rx="8" fill="#161b22" stroke="#f85149" stroke-width="1.2"/>
+    <text x="25" y="35" fill="#f85149" font-size="14" font-weight="bold">真实物理实体 (Atoms / 冷酷原子)</text>
+    
+    <g transform="translate(25, 60)">
+      <rect x="0" y="0" width="360" height="70" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="20" y="28" fill="#f0f6fc" font-size="12" font-weight="bold">非线性微观摩擦力与背隙</text>
+      <text x="20" y="50" fill="#8b949e" font-size="11">库仑摩擦各向异性，减速机微米齿隙在加速时产生强阶跃震颤</text>
+    </g>
+    
+    <g transform="translate(25, 150)">
+      <rect x="0" y="0" width="360" height="70" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="20" y="28" fill="#f0f6fc" font-size="12" font-weight="bold">热力学第二定律与不可逆磨损</text>
+      <text x="20" y="50" fill="#8b949e" font-size="11">金属疲劳、谐波减速器柔轮断裂、电刷磨损，无法被“撤销”</text>
+    </g>
+    
+    <g transform="translate(25, 240)">
+      <rect x="0" y="0" width="360" height="70" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+      <text x="20" y="28" fill="#f85149" font-size="12" font-weight="bold">报错代价极度昂贵 (Fatal Crash)</text>
+      <text x="20" y="50" fill="#8b949e" font-size="11">机械臂误撞机台造成几十万元构件报废，并导致整线停工维修</text>
+    </g>
+    
+    <g transform="translate(25, 330)">
+      <rect x="0" y="0" width="360" height="90" rx="6" fill="#1f242c" stroke="#f85149" stroke-width="1"/>
+      <text x="20" y="28" fill="#f85149" font-size="12" font-weight="bold">长尾工业暗知识 (Dark Knowledge)</text>
+      <text x="20" y="50" fill="#8b949e" font-size="11">• 无法在几张图片中被大模型标注的触觉手感</text>
+      <text x="20" y="68" fill="#8b949e" font-size="11">• 物理世界的坚固外壳，将 AI 的扩张狠狠卡在现实</text>
+    </g>
+  </g>
+</svg>

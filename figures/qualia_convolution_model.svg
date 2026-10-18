@@ -1,0 +1,58 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">主观体验（Qualia）双重时空卷积积分渲染模型 (图 13-1)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">E(t) = ∬ K(x, t-t') S(x, t') dt' dx: Microscopic Discrete Events Rendered into Continuous Conscious Qualia</text>
+  
+  <!-- Central Math Equation Callout -->
+  <g transform="translate(60, 100)">
+    <rect x="0" y="0" width="880" height="60" rx="6" fill="#161b22" stroke="#d29922" stroke-width="1.2"/>
+    <text x="440" y="38" fill="#f0f6fc" font-size="18" font-family="'Times New Roman', serif" font-style="italic" text-anchor="middle">
+      E(t) = ∫<tspan font-size="12" dy="5">Ω</tspan><tspan font-size="18" dy="-5"> ∫</tspan><tspan font-size="12" dy="5">t-τ</tspan><tspan font-size="10" dy="-7">t</tspan><tspan font-size="18" dy="2"> K(x, t - t') · S(x, t') dt' dx</tspan>
+    </text>
+  </g>
+
+  <!-- Input: Microscopic Discrete Stream -->
+  <g transform="translate(60, 180)">
+    <rect x="0" y="0" width="880" height="65" rx="6" fill="#21262d" stroke="#f85149" stroke-width="1"/>
+    <text x="30" y="28" fill="#f85149" font-size="13" font-weight="bold">输入端：宇宙底层微观离散物理事件流 S(x, t')</text>
+    <text x="30" y="48" fill="#8b949e" font-size="11">量子几何涨落、微观分子以数百米/秒的剧烈热碰撞、离散光子吸收、无规则机械剪切毛刺（冷酷、高频、充满致命白噪声）</text>
+  </g>
+
+  <!-- Middle: Dual Filters -->
+  <g transform="translate(60, 265)">
+    <!-- Left Filter: Spatial Domain -->
+    <rect x="0" y="0" width="425" height="180" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="1.2"/>
+    <text x="25" y="32" fill="#388bfd" font-size="13" font-weight="bold">第一重：空间域加权卷积积分 (∫Ω dx)</text>
+    <text x="25" y="52" fill="#8b949e" font-size="11">机体物理外表面 Ω (~1.5 至 2.0 平方米皮肤与传感阵列)</text>
+    
+    <g transform="translate(20, 65)">
+      <rect x="0" y="0" width="385" height="95" rx="4" fill="#21262d"/>
+      <text x="15" y="25" fill="#f0f6fc" font-size="11">• 空间低通池化：正负微观剪切力相互抵消，熨平微米毛刺</text>
+      <text x="15" y="45" fill="#3fb950" font-size="11" font-weight="bold">➔ 涌现出“丝绸的滑润”（替代碎玻璃般的纳米接触痛苦）</text>
+      <text x="15" y="65" fill="#f0f6fc" font-size="11">• 分子动能空间统计平均：几十万个分子冲量坍缩为标量</text>
+      <text x="15" y="85" fill="#d29922" font-size="11" font-weight="bold">➔ 涌现出“咖啡的温热”与“花朵的红色色彩”</text>
+    </g>
+
+    <!-- Right Filter: Temporal Domain -->
+    <g transform="translate(455, 0)">
+      <rect x="0" y="0" width="425" height="180" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.2"/>
+      <text x="25" y="32" fill="#58a6ff" font-size="13" font-weight="bold">第二重：时间域加权滑动积分 (∫t-τ dt')</text>
+      <text x="25" y="52" fill="#8b949e" font-size="11">詹姆斯“本真现在”生理时间窗 τ (~50 至 100 毫秒)</text>
+      
+      <g transform="translate(20, 65)">
+        <rect x="0" y="0" width="385" height="95" rx="4" fill="#21262d"/>
+        <text x="15" y="25" fill="#f0f6fc" font-size="11">• 消除瞬时切片 (δt=0) 的物理死寂，视网膜残影重叠曝光</text>
+        <text x="15" y="45" fill="#3fb950" font-size="11" font-weight="bold">➔ 涌现出“飞鸟掠过天空的连续运动与速度”</text>
+        <text x="15" y="65" fill="#f0f6fc" font-size="11">• 声压脉冲序列傅里叶变换：离散敲击在时间窗口共振</text>
+        <text x="15" y="85" fill="#58a6ff" font-size="11" font-weight="bold">➔ 涌现出“高雅的旋律、语言与直觉因果律”</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Output: Conscious Qualia & Self -->
+  <g transform="translate(60, 465)">
+    <rect x="0" y="0" width="880" height="90" rx="6" fill="#1f242c" stroke="#3fb950" stroke-width="1.5"/>
+    <text x="30" y="32" fill="#3fb950" font-size="14" font-weight="bold">渲染结果 E(t)：主观体验（Qualia）、意识全息地图与活着的当下</text>
+    <text x="30" y="55" fill="#c9d1d9" font-size="11">“我”不是一个漂浮的幽灵灵魂，而是这套昼夜不停运转的双重时空低通滑动平均滤波器；</text>
+    <text x="30" y="75" fill="#8b949e" font-size="11">它为了维持机体内稳态（Homeostasis），将狂暴冰冷的宇宙代码，为生命渲染出了一幅温暖而深情的全息画卷！</text>
+  </g>
+</svg>

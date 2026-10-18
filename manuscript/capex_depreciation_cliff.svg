@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <!-- Title & Header -->
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">AI 军备竞赛资本开支与折旧悬崖模型 (The Depreciation Cliff)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">Hyperscalers Combined CapEx vs. AI Monetization ARR &amp; Operating Margin Impact (2022-2027E)</text>
+
+  <!-- Legend & Badges -->
+  <g transform="translate(680, 25)">
+    <rect x="0" y="0" width="280" height="65" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="20" cy="22" r="5" fill="#f85149"/>
+    <text x="32" y="26" fill="#c9d1d9" font-size="11">四大云厂商合并 CapEx (资本开支)</text>
+    <circle cx="20" cy="45" r="5" fill="#58a6ff"/>
+    <text x="32" y="49" fill="#c9d1d9" font-size="11">AI 纯增量软件 ARR (年化经常性收入)</text>
+  </g>
+
+  <!-- Coordinate Grids -->
+  <g stroke="#21262d" stroke-width="1" stroke-dasharray="3,3">
+    <line x1="80" y1="110" x2="940" y2="110"/>
+    <line x1="80" y1="180" x2="940" y2="180"/>
+    <line x1="80" y1="250" x2="940" y2="250"/>
+    <line x1="80" y1="320" x2="940" y2="320"/>
+    <line x1="80" y1="390" x2="940" y2="390"/>
+    <!-- Divider between Trends and D&A Waterfall -->
+    <line x1="80" y1="430" x2="940" y2="430" stroke="#30363d" stroke-dasharray="none" stroke-width="1.5"/>
+  </g>
+
+  <!-- Y-Axis Labels (CapEx / Revenue in Billions USD) -->
+  <g fill="#8b949e" font-size="11" text-anchor="end">
+    <text x="70" y="114">$800 B</text>
+    <text x="70" y="184">$600 B</text>
+    <text x="70" y="254">$400 B</text>
+    <text x="70" y="324">$200 B</text>
+    <text x="70" y="394">$0 B</text>
+  </g>
+
+  <!-- X-Axis Labels (Years) -->
+  <g fill="#8b949e" font-size="11" text-anchor="middle">
+    <text x="130" y="415">2022 (ChatGPT前夕)</text>
+    <text x="290" y="415">2023 (抢卡军备潮)</text>
+    <text x="470" y="415">2024 (~$235B)</text>
+    <text x="650" y="415">2025 (~$413B 翻倍)</text>
+    <text x="830" y="415">2026E (~$750B 狂飙)</text>
+  </g>
+
+  <!-- Shaded Area of Scissor Gap -->
+  <path d="M 130,345 Q 290,330 470,305 T 650,245 T 830,125 L 830,350 Q 650,365 470,375 T 290,385 T 130,390 Z" fill="#da3633" fill-opacity="0.12"/>
+
+  <!-- CapEx Curve (Red, Exponential) -->
+  <path d="M 130,345 Q 290,330 470,305 T 650,245 T 830,125" fill="none" stroke="#f85149" stroke-width="3.5"/>
+  <!-- CapEx Data Points -->
+  <circle cx="130" cy="345" r="4" fill="#f85149"/>
+  <circle cx="290" cy="330" r="4" fill="#f85149"/>
+  <circle cx="470" cy="305" r="5" fill="#f85149"/>
+  <text x="470" y="295" fill="#f85149" font-size="11" font-weight="bold" text-anchor="middle">$235B</text>
+
+  <circle cx="650" cy="245" r="5" fill="#f85149"/>
+  <text x="650" y="235" fill="#f85149" font-size="11" font-weight="bold" text-anchor="middle">$413B</text>
+
+  <circle cx="830" cy="125" r="6" fill="#f85149"/>
+  <text x="830" y="112" fill="#f85149" font-size="12" font-weight="bold" text-anchor="middle">$750B+ (万亿逼近)</text>
+
+  <!-- AI Software ARR Curve (Blue, Sub-linear / Slower Ramp) -->
+  <path d="M 130,390 Q 290,385 470,375 T 650,365 T 830,350" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-dasharray="4,4"/>
+  <circle cx="470" cy="375" r="4" fill="#58a6ff"/>
+  <text x="470" y="392" fill="#58a6ff" font-size="10" text-anchor="middle">~$25B</text>
+  <circle cx="650" cy="365" r="4" fill="#58a6ff"/>
+  <text x="650" y="382" fill="#58a6ff" font-size="10" text-anchor="middle">~$60B</text>
+  <circle cx="830" cy="350" r="4" fill="#58a6ff"/>
+  <text x="830" y="370" fill="#58a6ff" font-size="10" text-anchor="middle">~$120B</text>
+
+  <!-- Callout for Scissor Gap -->
+  <g transform="translate(560, 290)">
+    <rect x="0" y="0" width="160" height="26" rx="4" fill="#1f242c" stroke="#f85149" stroke-width="1"/>
+    <text x="80" y="17" fill="#f85149" font-size="11" font-weight="bold" text-anchor="middle">剪刀差持续扩大 (巨亏压力)</text>
+  </g>
+
+  <!-- Lower Section: D&A Waterfall & Margin Compression -->
+  <g transform="translate(80, 450)">
+    <text x="0" y="20" fill="#f0f6fc" font-size="13" font-weight="bold">折旧与摊销 (D&amp;A) 瀑布对营业利润率的侵蚀机制：</text>
+
+    <!-- Block 1: CIP -->
+    <rect x="0" y="35" width="260" height="135" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="15" y="58" fill="#d29922" font-size="11" font-weight="bold">第一阶段：在建工程 (CIP)</text>
+    <text x="15" y="78" fill="#8b949e" font-size="10">• 资本开支先记入资产负债表</text>
+    <text x="15" y="96" fill="#8b949e" font-size="10">• 现金流流出，但不影响当期利润</text>
+    <text x="15" y="114" fill="#8b949e" font-size="10">• 掩盖了初期的盈利真实质量</text>
+    <text x="15" y="145" fill="#388bfd" font-size="10">状态：账面净利润繁荣假象</text>
+
+    <!-- Arrow 1 -->
+    <path d="M 270,102 L 295,102" stroke="#58a6ff" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Block 2: PP&E & D&A Storm -->
+    <rect x="305" y="35" width="280" height="135" rx="6" fill="#161b22" stroke="#f85149" stroke-width="1.2"/>
+    <text x="320" y="58" fill="#f85149" font-size="11" font-weight="bold">第二阶段：转固与折旧悬崖 (3~5年)</text>
+    <text x="320" y="78" fill="#c9d1d9" font-size="10">• 建筑寿命15~20年 vs GPU寿命仅3~5年</text>
+    <text x="320" y="96" fill="#c9d1d9" font-size="10">• 每年刚性计提原值 20%~33% 纯折旧</text>
+    <text x="320" y="114" fill="#f85149" font-size="10">• $700B 资产 ➔ 每年产生 $150B+ 刚性折旧</text>
+    <text x="320" y="145" fill="#f85149" font-size="10">冲击：直击营业利润表 (EBIT / EBITDA)</text>
+
+    <!-- Arrow 2 -->
+    <path d="M 595,102 L 620,102" stroke="#58a6ff" stroke-width="2"/>
+
+    <!-- Block 3: Free Cash Flow Squeeze -->
+    <rect x="630" y="35" width="230" height="135" rx="6" fill="#161b22" stroke="#da3633" stroke-width="1.2"/>
+    <text x="645" y="58" fill="#da3633" font-size="11" font-weight="bold">第三阶段：自由现金流断流</text>
+    <text x="645" y="78" fill="#c9d1d9" font-size="10">• 自由现金流 (FCF) 骤降转负</text>
+    <text x="645" y="96" fill="#c9d1d9" font-size="10">• 被迫大规模发行企业债融资</text>
+    <text x="645" y="114" fill="#c9d1d9" font-size="10">• 倒逼董事会削减下一财年 CapEx</text>
+    <text x="645" y="145" fill="#f85149" font-size="10">终局：逆向引爆全产业链去库存</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Math Test</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+  <style>
+    @page {
+      size: A4;
+      margin: 20mm;
+    }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", -apple-system, sans-serif;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <h1>测试公式渲染</h1>
+  <p>内联公式：$E = mc^2$ 以及 $\tau_{\text{dec}} \sim 10^{-20}\text{ s}$，温度 $T \sim 300\text{ K}$</p>
+  <p>块级公式：</p>
+  $$E(t) = \int_{\Omega} \int_{t - \tau}^{t} K(\mathbf{x}, t - t') S(\mathbf{x}, t') \, dt' d\mathbf{x}$$
+
+  <script>
+    window.addEventListener("load", function() {
+      if (typeof renderMathInElement === "function") {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+</body>
+</html>

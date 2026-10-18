@@ -1,0 +1,58 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">溪流中的巨石与自洽旋转的驻波全景图 (图 14-2)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">Cosmic River, The Mesoscopic Boulder, and The Self-Consistent Dissipative Standing Wave</text>
+  
+  <!-- Flow Lines (Background Stream) -->
+  <g stroke="#21262d" stroke-width="1.5" stroke-dasharray="8,6">
+    <line x1="50" y1="130" x2="950" y2="130"/>
+    <line x1="50" y1="180" x2="950" y2="180"/>
+    <line x1="50" y1="450" x2="950" y2="450"/>
+    <line x1="50" y1="500" x2="950" y2="500"/>
+  </g>
+  <text x="80" y="150" fill="#58a6ff" font-size="12" font-style="italic">全宇宙不可约状态机算力洪流 (纳秒晶格微观演化 ➔ 奔向不可逆热力学熵增)</text>
+
+  <!-- Left: The Silicon Lattice -->
+  <g transform="translate(60, 220)">
+    <rect x="0" y="0" width="260" height="190" rx="8" fill="#161b22" stroke="#f85149" stroke-width="1.2"/>
+    <text x="20" y="30" fill="#f85149" font-size="13" font-weight="bold">微观固态硅晶格 (快变量)</text>
+    <text x="20" y="50" fill="#8b949e" font-size="10">时钟：10⁻⁹ 秒 (纳秒翻转)</text>
+    <text x="20" y="75" fill="#c9d1d9" font-size="11">• 能带禁带工程锚定确定性孤岛</text>
+    <text x="20" y="95" fill="#c9d1d9" font-size="11">• 时间望远镜替宇宙推演因果</text>
+    <text x="20" y="115" fill="#c9d1d9" font-size="11">• 万卡集群狂飙推动资本二阶导</text>
+    <text x="20" y="145" fill="#f85149" font-size="11" font-weight="bold">商业周期见顶，物理宇宙从未见顶！</text>
+    <text x="20" y="165" fill="#8b949e" font-size="10">同源规则在更致密晶格中继续展开</text>
+  </g>
+
+  <!-- Center: The Mesoscopic Standing Wave (The Vortex) -->
+  <g transform="translate(370, 180)">
+    <!-- Rotating Vortex Visual Representation -->
+    <ellipse cx="130" cy="130" rx="120" ry="120" fill="#1f242c" stroke="#3fb950" stroke-width="2"/>
+    <ellipse cx="130" cy="130" rx="90" ry="90" fill="none" stroke="#d29922" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <ellipse cx="130" cy="130" rx="50" ry="50" fill="none" stroke="#58a6ff" stroke-width="2"/>
+    <circle cx="130" cy="130" r="10" fill="#f0f6fc"/>
+    
+    <text x="130" y="90" fill="#3fb950" font-size="13" font-weight="bold" text-anchor="middle">碳基生命驻波</text>
+    <text x="130" y="110" fill="#f0f6fc" font-size="11" text-anchor="middle">(中观常温自洽涡旋)</text>
+    <text x="130" y="150" fill="#c9d1d9" font-size="10" text-anchor="middle">300K · 1米 · 100毫秒</text>
+    <text x="130" y="170" fill="#d29922" font-size="10" font-weight="bold" text-anchor="middle">水分子不断更替，形态永恒相干</text>
+  </g>
+
+  <!-- Right: The Conscious Human Closure -->
+  <g transform="translate(680, 220)">
+    <rect x="0" y="0" width="260" height="190" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="1.2"/>
+    <text x="20" y="30" fill="#3fb950" font-size="13" font-weight="bold">走出书斋的自洽生命 (慢变量)</text>
+    <text x="20" y="50" fill="#8b949e" font-size="10">时钟：10⁻¹ 秒 (百毫秒脉动)</text>
+    <text x="20" y="75" fill="#c9d1d9" font-size="11">• 涡旋不必因为自己不是江河而自卑</text>
+    <text x="20" y="95" fill="#c9d1d9" font-size="11">• 碳基肉身不必异化为机器以求证明</text>
+    <text x="20" y="115" fill="#c9d1d9" font-size="11">• 感受温热咖啡、落叶弧线与爱恨</text>
+    <text x="20" y="145" fill="#3fb950" font-size="11" font-weight="bold">在有限的一生时间窗里，</text>
+    <text x="20" y="165" fill="#8b949e" font-size="10">为冷漠的宇宙渲染唯一的深情画卷！</text>
+  </g>
+
+  <!-- Bottom Quote -->
+  <g transform="translate(60, 520)">
+    <text x="440" y="30" fill="#8b949e" font-size="12" text-anchor="middle" font-style="italic">
+      “宇宙没有偏袒硅基，也没有偏袒碳基；它同时容纳了以纳秒翻转的冷硬晶格，和以百毫秒脉动的温热心脏。”
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">半导体硅晶格能带禁带与弛豫时间相变之梯 (图 9-1)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">Semiconductor Bandgap Engineering: Bridging 8 Orders of Magnitude in Relaxation Time</text>
+  
+  <!-- Left Side: Bandgap Physics -->
+  <g transform="translate(60, 110)">
+    <rect x="0" y="0" width="410" height="440" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <text x="25" y="35" fill="#58a6ff" font-size="14" font-weight="bold">单晶硅量子能带结构 (常温热海中的孤岛)</text>
+    
+    <!-- Conduction Band -->
+    <rect x="25" y="60" width="360" height="60" rx="4" fill="#1f242c" stroke="#3fb950" stroke-width="1.5"/>
+    <text x="45" y="88" fill="#3fb950" font-size="13" font-weight="bold">导带 (Conduction Band)</text>
+    <text x="45" y="106" fill="#8b949e" font-size="10">允许轻电子高速漂移流动 ➔ 定义为逻辑 "1"</text>
+    
+    <!-- Bandgap (The Barrier) -->
+    <rect x="25" y="130" width="360" height="120" rx="4" fill="#0d1117" stroke="#f85149" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="205" y="180" fill="#f85149" font-size="14" font-weight="bold" text-anchor="middle">禁带 (Bandgap: Eg ≈ 1.12 eV)</text>
+    <text x="205" y="202" fill="#d29922" font-size="11" text-anchor="middle">常温热涨落能量: kB · T ≈ 0.026 eV (26 meV)</text>
+    <text x="205" y="222" fill="#8b949e" font-size="10" text-anchor="middle">Eg 是热扰动的 43 倍！热运动自发越障概率 P ~ e⁻⁴³ ≈ 0</text>
+    
+    <!-- Valence Band -->
+    <rect x="25" y="260" width="360" height="60" rx="4" fill="#1f242c" stroke="#58a6ff" stroke-width="1.5"/>
+    <text x="45" y="288" fill="#58a6ff" font-size="13" font-weight="bold">价带 (Valence Band)</text>
+    <text x="45" y="306" fill="#8b949e" font-size="10">电子被共价键牢牢锁定，无法自由导电 ➔ 定义为逻辑 "0"</text>
+
+    <!-- P-N Gate Control -->
+    <rect x="25" y="335" width="360" height="85" rx="6" fill="#21262d"/>
+    <text x="40" y="360" fill="#f0f6fc" font-size="11" font-weight="bold">MOSFET 栅极电压操控：</text>
+    <text x="40" y="380" fill="#8b949e" font-size="10">• 施加正电压：瞬间压平内建势垒，电子近光速穿透导通</text>
+    <text x="40" y="398" fill="#8b949e" font-size="10">• 撤去电压：耗尽层截断，漏电流归零，维持纯粹布尔状态</text>
+  </g>
+
+  <!-- Right Side: Relaxation Time Ladder -->
+  <g transform="translate(520, 110)">
+    <rect x="0" y="0" width="420" height="440" rx="8" fill="#161b22" stroke="#d29922" stroke-width="1.2"/>
+    <text x="25" y="35" fill="#d29922" font-size="14" font-weight="bold">物理载体弛豫时间相变之梯 (对数时间轴)</text>
+    
+    <!-- Step 1: Bio -->
+    <rect x="25" y="60" width="370" height="80" rx="6" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+    <text x="40" y="85" fill="#58a6ff" font-size="12" font-weight="bold">10⁻¹ s ~ 10⁻² s: 生物神经化学网络 (碳基)</text>
+    <text x="40" y="105" fill="#8b949e" font-size="10">• 载体：重离子 (Na⁺/K⁺，质量为电子数万倍) + 递质扩散</text>
+    <text x="40" y="123" fill="#8b949e" font-size="10">• 极限：受流体粘滞阻尼与化学势扩散死死限制在毫秒级</text>
+
+    <!-- Transmutation Bridge -->
+    <g transform="translate(180, 150)">
+      <text x="30" y="20" fill="#f85149" font-size="11" font-weight="bold" text-anchor="middle">▼ 跨越 7~8 个数量级的介质相变 ▼</text>
+    </g>
+
+    <!-- Step 2: Silicon -->
+    <rect x="25" y="180" width="370" height="80" rx="6" fill="#21262d" stroke="#f85149" stroke-width="1"/>
+    <text x="40" y="205" fill="#f85149" font-size="12" font-weight="bold">10⁻⁹ s (1 纳秒): 固态单晶硅晶格 (现代芯片)</text>
+    <text x="40" y="225" fill="#8b949e" font-size="10">• 载体：轻自由电子漂移 (有效质量极低，电场瞬间加速)</text>
+    <text x="40" y="243" fill="#8b949e" font-size="10">• 突破：时钟主频攀升至数 GHz，将时间尺度剧烈压缩</text>
+
+    <!-- Step 3: Femtosecond -->
+    <rect x="25" y="275" width="370" height="70" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="40" y="298" fill="#c9d1d9" font-size="11" font-weight="bold">10⁻¹² s ~ 10⁻¹⁵ s: 声子散射与超快飞秒光学计算</text>
+    <text x="40" y="318" fill="#8b949e" font-size="10">• 前沿光电与自旋电子学探索的物理物理终极边界</text>
+
+    <!-- Synthesis box -->
+    <rect x="25" y="360" width="370" height="60" rx="6" fill="#1f242c" stroke="#3fb950" stroke-width="1"/>
+    <text x="40" y="385" fill="#3fb950" font-size="11" font-weight="bold">计算机的本质：时间尺度的望远镜</text>
+    <text x="40" y="403" fill="#8b949e" font-size="10">替人类跑完生物神经元在寿命内无法承受的万亿步不可约因果链</text>
+  </g>
+</svg>

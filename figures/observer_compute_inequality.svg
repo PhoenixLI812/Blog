@@ -1,0 +1,46 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">同源观察者的算力真子集与朗道尔测量反冲图 (图 7-1)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">Endophysical Observer as a Strict Subset (C_obs &lt;&lt; C_sys) &amp; Thermodynamic Measurement Backaction</text>
+  
+  <!-- Outer System Box -->
+  <g transform="translate(60, 110)">
+    <rect x="0" y="0" width="880" height="440" rx="10" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <text x="30" y="40" fill="#58a6ff" font-size="16" font-weight="bold">物理系统整体 (Cosmic System: 全宇宙或闭合系统)</text>
+    <text x="30" y="65" fill="#8b949e" font-size="12">• 系统总状态空间: S_sys ~ 2^N (N ~ 10⁸⁰ 粒子)   • 系统总算力: C_sys (完全不可约每秒 10¹²⁰ 步)</text>
+
+    <!-- Inner Observer Box (Subset) -->
+    <g transform="translate(60, 100)">
+      <rect x="0" y="0" width="450" height="280" rx="8" fill="#21262d" stroke="#f85149" stroke-width="1.5"/>
+      <text x="25" y="35" fill="#f85149" font-size="14" font-weight="bold">内生同源观察者 (Endophysical Observer)</text>
+      <text x="25" y="60" fill="#c9d1d9" font-size="11">• 观察者肉身占用系统粒子的极小真子集: C_obs ⊂ C_sys</text>
+      <text x="25" y="80" fill="#c9d1d9" font-size="11">• 人脑算力 ~ 10¹⁵ FLOPs，人类工作记忆 ~ 50 bps</text>
+      <text x="25" y="105" fill="#f85149" font-size="12" font-weight="bold">拉普拉斯妖破产：</text>
+      <text x="25" y="125" fill="#8b949e" font-size="11">拉普拉斯妖不能住在它所预测的系统内部。若要记录系统每个粒子的</text>
+      <text x="25" y="145" fill="#8b949e" font-size="11">瞬时坐标，记录介质本身将引发无限递归自指死锁 (Self-Reference Paradox)。</text>
+      
+      <!-- Inside Observer: Irreducibility Box -->
+      <rect x="25" y="170" width="400" height="85" rx="6" fill="#161b22" stroke="#d29922" stroke-width="1"/>
+      <text x="40" y="195" fill="#d29922" font-size="12" font-weight="bold">沃尔夫勒姆计算不可约性 (Computational Irreducibility)</text>
+      <text x="40" y="215" fill="#8b949e" font-size="10">• 没有任何解析公式能跳过时间步超频预测未来</text>
+      <text x="40" y="235" fill="#8b949e" font-size="10">• 预测第 N 步结果的唯一方法，就是等这 N 步物理演化完整发生</text>
+    </g>
+
+    <!-- Right Side: Landauer Limit & Backaction -->
+    <g transform="translate(550, 100)">
+      <rect x="0" y="0" width="270" height="280" rx="8" fill="#1f242c" stroke="#d29922" stroke-width="1.2"/>
+      <text x="20" y="35" fill="#d29922" font-size="13" font-weight="bold">朗道尔极限与反冲蒸发</text>
+      
+      <rect x="20" y="55" width="230" height="60" rx="4" fill="#21262d"/>
+      <text x="30" y="80" fill="#f85149" font-size="12" font-weight="bold">ΔQ ≥ kB · T · ln 2</text>
+      <text x="30" y="100" fill="#8b949e" font-size="10">每擦除/写入 1 比特信息必须排放的最低废热</text>
+
+      <text x="20" y="140" fill="#c9d1d9" font-size="11" font-weight="bold">测量不是免费的：</text>
+      <text x="20" y="160" fill="#8b949e" font-size="10">• 观察者每记录一个微观粒子，就向系统释放焦耳废热</text>
+      <text x="20" y="185" fill="#8b949e" font-size="10">• 试图全知观测系统的微观状态，将引发海啸般的熵增</text>
+      <text x="20" y="210" fill="#f85149" font-size="11" font-weight="bold">直接将系统本身加热蒸发为热寂！</text>
+      
+      <line x1="20" y1="235" x2="250" y2="235" stroke="#30363d"/>
+      <text x="20" y="255" fill="#58a6ff" font-size="10">结论：全知不仅数学不可能，物理亦禁止</text>
+    </g>
+  </g>
+</svg>

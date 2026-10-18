@@ -1,0 +1,84 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <text x="40" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">跨尺度阻抗匹配：人机交互的三重重叠界面 (图 11-1)</text>
+  <text x="40" y="70" fill="#8b949e" font-size="12">Three Cross-Sectional Overlap Interfaces: Signal Transduction, 1D Token Projection &amp; Thermodynamic Co-Habitation</text>
+  
+  <g transform="translate(50, 110)">
+    <!-- Column 1: Signal Transduction -->
+    <rect x="0" y="0" width="280" height="440" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.2"/>
+    <text x="20" y="35" fill="#58a6ff" font-size="14" font-weight="bold">1. 信号物理换能层</text>
+    <text x="20" y="55" fill="#8b949e" font-size="11">解决 8 个数量级频率错配</text>
+    
+    <g transform="translate(15, 75)">
+      <rect x="0" y="0" width="250" height="150" rx="6" fill="#21262d"/>
+      <text x="15" y="25" fill="#3fb950" font-size="11" font-weight="bold">【输入端：硬件去抖与锁存】</text>
+      <text x="15" y="48" fill="#8b949e" font-size="10">• 人类手指按下键盘伴随 50ms 机械反弹</text>
+      <text x="15" y="68" fill="#8b949e" font-size="10">• 若直接接入，3GHz 芯片误判上百万次</text>
+      <text x="15" y="88" fill="#8b949e" font-size="10">• 施密特触发器 + RC 低通滤波：</text>
+      <text x="15" y="108" fill="#c9d1d9" font-size="10">将肉身拖泥带水的泥潭，</text>
+      <text x="15" y="128" fill="#3fb950" font-size="10" font-weight="bold">降采样为单次纯净纳秒上升沿脉冲！</text>
+    </g>
+
+    <g transform="translate(15, 245)">
+      <rect x="0" y="0" width="250" height="175" rx="6" fill="#21262d"/>
+      <text x="15" y="25" fill="#f85149" font-size="11" font-weight="bold">【输出端：显存双缓冲与 60Hz 滤波】</text>
+      <text x="15" y="48" fill="#8b949e" font-size="10">• GPU 在后台以纳秒渲染上亿三角形</text>
+      <text x="15" y="68" fill="#8b949e" font-size="10">• 视网膜存在 50~100ms 视觉暂留松弛</text>
+      <text x="15" y="88" fill="#8b949e" font-size="10">• 显存双缓冲 (Double Buffering)：</text>
+      <text x="15" y="108" fill="#c9d1d9" font-size="10">每隔 16.6 毫秒 (60Hz) 投递一帧整幅位图</text>
+      <text x="15" y="128" fill="#8b949e" font-size="10">• 屏幕本质上不是发光面板，而是：</text>
+      <text x="15" y="148" fill="#f85149" font-size="10" font-weight="bold">为落后视网膜定制的“低通光学滤波器”！</text>
+    </g>
+  </g>
+
+  <!-- Column 2: Semantic 1D Tokens -->
+  <g transform="translate(360, 110)">
+    <rect x="0" y="0" width="280" height="440" rx="8" fill="#161b22" stroke="#d29922" stroke-width="1.2"/>
+    <text x="20" y="35" fill="#d29922" font-size="14" font-weight="bold">2. 语义一维离散符号层</text>
+    <text x="20" y="55" fill="#8b949e" font-size="11">跨异构流形的最大公约数</text>
+    
+    <g transform="translate(15, 75)">
+      <rect x="0" y="0" width="250" height="150" rx="6" fill="#21262d"/>
+      <text x="15" y="25" fill="#d29922" font-size="11" font-weight="bold">【机器内核：数千维连续流形】</text>
+      <text x="15" y="48" fill="#8b949e" font-size="10">• 知识表现为非欧空间拓扑几何曲面</text>
+      <text x="15" y="68" fill="#8b949e" font-size="10">• 概念关联为超空间向量测地线距离</text>
+      <text x="15" y="93" fill="#c9d1d9" font-size="10">人类三维大脑完全无法直觉想象</text>
+      <text x="15" y="118" fill="#d29922" font-size="10" font-weight="bold">高维超曲面如何向低维生命表达？</text>
+    </g>
+
+    <g transform="translate(15, 245)">
+      <rect x="0" y="0" width="250" height="175" rx="6" fill="#1f242c" stroke="#d29922" stroke-width="1"/>
+      <text x="15" y="25" fill="#3fb950" font-size="11" font-weight="bold">【Softmax 强制坍缩为 1D Token】</text>
+      <text x="15" y="48" fill="#8b949e" font-size="10">• 几万年前人类肉身被头骨阻隔，</text>
+      <text x="15" y="68" fill="#8b949e" font-size="10">  发明了挤压声带的一维离散语言符号</text>
+      <text x="15" y="88" fill="#8b949e" font-size="10">• 机器在最后纳秒通过概率采样，</text>
+      <text x="15" y="108" fill="#c9d1d9" font-size="10">  把浩瀚高维张量拍扁为单个离散词向量</text>
+      <text x="15" y="133" fill="#3fb950" font-size="10" font-weight="bold">语言成了人机唯一的极窄单维数据线！</text>
+    </g>
+  </g>
+
+  <!-- Column 3: Thermodynamic Co-Habitation -->
+  <g transform="translate(670, 110)">
+    <rect x="0" y="0" width="280" height="440" rx="8" fill="#161b22" stroke="#f85149" stroke-width="1.2"/>
+    <text x="20" y="35" fill="#f85149" font-size="14" font-weight="bold">3. 宏观热力学共栖层</text>
+    <text x="20" y="55" fill="#8b949e" font-size="11">同一个地表封闭生态空间</text>
+    
+    <g transform="translate(15, 75)">
+      <rect x="0" y="0" width="250" height="150" rx="6" fill="#21262d"/>
+      <text x="15" y="25" fill="#f85149" font-size="11" font-weight="bold">【争夺同质高阶自由能】</text>
+      <text x="15" y="48" fill="#8b949e" font-size="10">• 人类：消化淀粉合成线粒体 ATP (~100W)</text>
+      <text x="15" y="68" fill="#8b949e" font-size="10">• 芯片：特高压电网输送定向流动电子</text>
+      <text x="15" y="93" fill="#c9d1d9" font-size="10">人与数据中心在同一个宏观经济中</text>
+      <text x="15" y="118" fill="#f85149" font-size="10" font-weight="bold">争夺电网容量、变压器与水源配额！</text>
+    </g>
+
+    <g transform="translate(15, 245)">
+      <rect x="0" y="0" width="250" height="175" rx="6" fill="#21262d"/>
+      <text x="15" y="25" fill="#d29922" font-size="11" font-weight="bold">【排向同一个大气终极散热池】</text>
+      <text x="15" y="48" fill="#8b949e" font-size="10">• 依据朗道尔原理与热力学第二定律，</text>
+      <text x="15" y="68" fill="#8b949e" font-size="10">  所有逻辑擦除必化为不可逆焦耳废热</text>
+      <text x="15" y="88" fill="#8b949e" font-size="10">• 数据中心冷却水塔排放 60℃~80℃ 废热</text>
+      <text x="15" y="108" fill="#8b949e" font-size="10">• 与人类 800GW 代谢热共处同一大气层</text>
+      <text x="15" y="133" fill="#d29922" font-size="10" font-weight="bold">两者同为受困于能量守恒的沉重造物！</text>
+    </g>
+  </g>
+</svg>
