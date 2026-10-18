@@ -500,6 +500,11 @@
       mergeNavbar: true,
       topMargin: 20,
       homepage: 'manuscript/00_序言_在算力中心的轰鸣与窗外的落叶之间.md',
+
+      // 路由别名统一
+      alias: {
+        '/manuscript/00_序言_在算力中心的轰鸣与窗外的落叶之间': '/'
+      },
       
       // 搜索配置
       search: {
@@ -574,6 +579,40 @@
                 });
               } catch (e) {
                 console.warn('Mermaid rendering:', e);
+              }
+            }
+
+            // 确保序言（无论通过封面点击还是从主页滚动）底端永远拥有“下一章”按钮
+            var paginationContainer = document.querySelector('.docsify-pagination-container');
+            if (paginationContainer) {
+              var path = vm.route.path;
+              var isPrologue = (path === '/' || path === '' || path.indexOf('00_序言') !== -1);
+              if (isPrologue && !paginationContainer.querySelector('.pagination-item--next')) {
+                var navLinks = document.querySelectorAll('.sidebar-nav li a');
+                var nextLink = null;
+                for (var k = 0; k < navLinks.length; k++) {
+                  var href = navLinks[k].getAttribute('href') || '';
+                  if (href.indexOf('01_第一章') !== -1) {
+                    nextLink = navLinks[k];
+                    break;
+                  }
+                }
+                if (nextLink) {
+                  var nextHref = nextLink.getAttribute('href');
+                  var nextTitle = nextLink.innerText || '第 01 章：二阶导的重力（半导体与物价的时差）';
+                  paginationContainer.innerHTML = 
+                    '<div class="pagination-item pagination-item--next">' +
+                      '<a href="' + nextHref + '">' +
+                        '<div class="pagination-item-label">' +
+                          '<span>下一章</span>' +
+                          '<svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">' +
+                            '<polyline fill="none" vector-effect="non-scaling-stroke" points="2,2 8,8 2,14"/>' +
+                          '</svg>' +
+                        '</div>' +
+                        '<div class="pagination-item-title">' + nextTitle + '</div>' +
+                      '</a>' +
+                    '</div>';
+                }
               }
             }
           });

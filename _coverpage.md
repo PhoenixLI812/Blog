@@ -25,7 +25,7 @@
 </div>
 
 <div class="cover-actions">
-  <a class="cta-button" href="#/manuscript/00_序言_在算力中心的轰鸣与窗外的落叶之间">
+  <a class="cta-button" href="#/">
     <span>开启阅读 · 进入序言</span>
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
   </a>
