@@ -10,7 +10,7 @@
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
 
-  <!-- Docsify Theme: Vue / Themeable -->
+  <!-- Docsify Theme -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   
   <!-- KaTeX CSS -->
@@ -21,10 +21,10 @@
       --theme-color: #0969da;
       --text-color: #24292f;
       --bg-color: #ffffff;
-      --sidebar-bg: #f6f8fa;
-      --border-color: #d0d7de;
-      --code-bg: #f6f8fa;
-      --quote-bg: #f6f8fa;
+      --sidebar-bg: #f8fafc;
+      --border-color: #e2e8f0;
+      --code-bg: #f1f5f9;
+      --quote-bg: #f8fafc;
       --accent-color: #0969da;
     }
 
@@ -39,7 +39,7 @@
       --accent-color: #58a6ff;
     }
 
-    /* 全局排版 */
+    /* 全局排版美化 */
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 16px;
@@ -49,7 +49,7 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* 侧边栏优化 */
+    /* 侧边栏微调 */
     .sidebar {
       background-color: var(--sidebar-bg);
       border-right: 1px solid var(--border-color);
@@ -58,7 +58,7 @@
 
     .sidebar ul li a {
       color: var(--text-color);
-      padding: 6px 12px;
+      padding: 7px 12px;
       transition: all 0.2s ease;
       border-radius: 6px;
     }
@@ -80,31 +80,27 @@
       font-size: 17px;
       color: var(--theme-color) !important;
       display: block;
-      padding: 10px 0;
+      padding: 12px 0;
     }
 
-    /* 正文区域 */
-    .content {
-      padding-top: 20px;
-    }
-
+    /* 正文区排版 */
     .markdown-section {
       max-width: 900px;
-      padding: 30px 40px 80px;
+      padding: 30px 40px 90px;
     }
 
     .markdown-section h1 {
       font-size: 2.1rem;
       margin-top: 1.8rem;
       margin-bottom: 1.2rem;
-      padding-bottom: 0.4rem;
+      padding-bottom: 0.5rem;
       border-bottom: 1px solid var(--border-color);
       font-weight: 700;
       letter-spacing: -0.02em;
     }
 
     .markdown-section h2 {
-      font-size: 1.6rem;
+      font-size: 1.55rem;
       margin-top: 2rem;
       margin-bottom: 1rem;
       padding-bottom: 0.3rem;
@@ -113,24 +109,24 @@
     }
 
     .markdown-section h3 {
-      font-size: 1.3rem;
+      font-size: 1.25rem;
       margin-top: 1.6rem;
       margin-bottom: 0.8rem;
       font-weight: 600;
     }
 
     .markdown-section p {
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.25rem;
       text-align: justify;
     }
 
-    /* 引用块美化 */
+    /* 引用块 */
     .markdown-section blockquote {
       border-left: 4px solid var(--theme-color);
       background: var(--quote-bg);
       color: var(--text-color);
       padding: 14px 20px;
-      margin: 1.5rem 0;
+      margin: 1.6rem 0;
       border-radius: 0 8px 8px 0;
     }
 
@@ -138,12 +134,12 @@
       margin: 0;
     }
 
-    /* 表格美化 */
+    /* 表格 */
     .markdown-section table {
       display: table;
       width: 100%;
       border-collapse: collapse;
-      margin: 1.5rem 0;
+      margin: 1.6rem 0;
       border-radius: 8px;
       overflow: hidden;
       border: 1px solid var(--border-color);
@@ -157,7 +153,7 @@
     }
 
     .markdown-section td {
-      padding: 10px 16px;
+      padding: 11px 16px;
       border: 1px solid var(--border-color);
     }
 
@@ -165,16 +161,16 @@
       background-color: rgba(128, 128, 128, 0.04);
     }
 
-    /* 图片与 SVG 渲染 */
+    /* 图片与 SVG */
     .markdown-section img {
       max-width: 100%;
       border-radius: 8px;
       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-      margin: 1.5rem auto;
+      margin: 1.8rem auto;
       display: block;
     }
 
-    /* 代码块与行内代码 */
+    /* 行内代码与代码块 */
     .markdown-section code {
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
       font-size: 0.9em;
@@ -189,7 +185,7 @@
       padding: 0;
     }
 
-    /* 公式样式微调 */
+    /* 公式样式 */
     .katex-display {
       margin: 1.4em 0;
       overflow-x: auto;
@@ -219,7 +215,7 @@
       border-radius: 50%;
       background: var(--bg-color);
       border: 1px solid var(--border-color);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
       cursor: pointer;
       z-index: 999;
       display: flex;
@@ -233,99 +229,227 @@
       transform: scale(1.1);
     }
 
-    /* 封面页背景渐变 */
+    /* ======================================================== */
+    /*   全新重构的顶级科技风封面 (Vercel / Stripe 质感)           */
+    /* ======================================================== */
     section.cover {
-      background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0d1117 100%) !important;
+      background: radial-gradient(circle at 50% 25%, rgba(56, 139, 253, 0.18) 0%, transparent 55%),
+                  radial-gradient(circle at 85% 75%, rgba(137, 87, 229, 0.15) 0%, transparent 45%),
+                  radial-gradient(circle at 15% 80%, rgba(35, 134, 54, 0.12) 0%, transparent 40%),
+                  #070a0f !important;
+      position: relative;
+      overflow: hidden;
+    }
+
+    section.cover::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
     }
 
     section.cover .cover-main {
-      color: #f0f6fc;
-      max-width: 800px;
+      max-width: 860px;
       margin: 0 auto;
+      padding: 40px 24px 60px;
+      color: #f0f6fc;
+      z-index: 2;
     }
 
-    section.cover .cover-main h1 {
+    /* 顶部光晕 Badge */
+    .cover-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(56, 139, 253, 0.12);
+      border: 1px solid rgba(56, 139, 253, 0.35);
+      border-radius: 9999px;
+      font-size: 0.82rem;
+      font-weight: 500;
       color: #58a6ff;
-      font-size: 3rem;
-      font-weight: 800;
+      letter-spacing: 0.06em;
+      margin-bottom: 24px;
+      backdrop-filter: blur(8px);
+    }
+
+    .badge-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #3fb950;
+      box-shadow: 0 0 8px #3fb950;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    /* 震撼大标题 */
+    section.cover .cover-main h1 {
+      font-size: 3.6rem;
+      font-weight: 850;
       letter-spacing: -0.03em;
-      margin-bottom: 1rem;
+      line-height: 1.15;
+      margin: 0 0 16px 0;
+      background: linear-gradient(135deg, #ffffff 30%, #58a6ff 70%, #d2a8ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     }
 
-    section.cover .cover-main blockquote {
+    /* 副标题 */
+    .cover-subtitle-en {
+      font-size: 0.88rem;
+      font-weight: 600;
       color: #8b949e;
-      font-size: 1.25rem;
-      border: none;
-      background: transparent;
-      padding: 0;
-      margin-bottom: 2rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin: 0 0 8px 0;
     }
 
-    section.cover .cover-main ul {
-      list-style: none;
-      padding: 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 12px;
-      margin-bottom: 2.5rem;
+    .cover-subtitle-cn {
+      font-size: 1.25rem;
+      color: #c9d1d9;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      margin: 0 0 32px 0;
+    }
+
+    /* 毛玻璃金句卡片 */
+    .cover-quote-card {
+      position: relative;
+      background: rgba(22, 27, 34, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 22px 28px;
+      margin: 0 auto 36px;
+      max-width: 760px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
       text-align: left;
     }
 
-    section.cover .cover-main ul li {
-      background: rgba(255, 255, 255, 0.05);
-      padding: 12px 18px;
+    .quote-line {
+      position: absolute;
+      left: 0; top: 16px; bottom: 16px;
+      width: 4px;
+      background: linear-gradient(to bottom, #58a6ff, #bc8cff);
+      border-radius: 0 4px 4px 0;
+    }
+
+    .quote-text {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #e6edf3;
+      margin: 0;
+      font-style: italic;
+    }
+
+    /* 核心推演特性标签 */
+    .cover-features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+
+    .feature-tag {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 8px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      font-size: 0.95rem;
+      padding: 9px 18px;
+      font-size: 0.88rem;
+      color: #c9d1d9;
+      transition: all 0.25s ease;
+      backdrop-filter: blur(6px);
     }
 
-    section.cover .cover-main a.anchor {
-      display: none;
-    }
-
-    section.cover .cover-main p a {
-      background-color: #238636;
+    .feature-tag:hover {
+      background: rgba(88, 166, 255, 0.1);
+      border-color: rgba(88, 166, 255, 0.3);
       color: #ffffff;
-      border-radius: 6px;
-      padding: 12px 28px;
-      font-weight: 600;
-      margin: 6px;
-      display: inline-block;
-      text-decoration: none;
-      transition: background-color 0.2s ease, transform 0.1s ease;
-    }
-
-    section.cover .cover-main p a:hover {
-      background-color: #2ea043;
       transform: translateY(-2px);
     }
 
-    section.cover .cover-main p a:nth-of-type(2) {
-      background-color: #1f6feb;
+    .feature-tag span {
+      margin-right: 6px;
     }
 
-    section.cover .cover-main p a:nth-of-type(2):hover {
-      background-color: #388bfd;
+    /* 核心行动按钮 */
+    .cover-actions {
+      margin-bottom: 30px;
     }
 
-    section.cover .cover-main p a:nth-of-type(3) {
-      background-color: #30363d;
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #1f6feb 0%, #238636 100%);
+      color: #ffffff !important;
+      font-size: 1.05rem;
+      font-weight: 600;
+      padding: 14px 36px;
+      border-radius: 9999px;
+      text-decoration: none !important;
+      box-shadow: 0 4px 24px rgba(31, 111, 235, 0.45);
+      transition: all 0.25s ease;
+      border: 1px solid rgba(255, 255, 255, 0.15);
     }
 
-    section.cover .cover-main p a:nth-of-type(3):hover {
-      background-color: #484f58;
+    .cta-button:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 8px 32px rgba(31, 111, 235, 0.6);
+      background: linear-gradient(135deg, #388bfd 0%, #2ea043 100%);
     }
 
-    /* 移动端适配 */
+    .cta-button svg {
+      transition: transform 0.2s ease;
+    }
+
+    .cta-button:hover svg {
+      transform: translateX(4px);
+    }
+
+    /* 滚动提示动画 */
+    .cover-scroll-hint {
+      color: #8b949e;
+      opacity: 0.6;
+      animation: bounce 2s infinite;
+      margin-top: 10px;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+      40% { transform: translateY(8px); }
+      60% { transform: translateY(4px); }
+    }
+
+    /* 移动端深度优化 */
     @media (max-width: 768px) {
       .markdown-section {
         padding: 20px 18px 60px;
       }
       section.cover .cover-main h1 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
       }
-      section.cover .cover-main ul {
-        grid-template-columns: 1fr;
+      .cover-subtitle-cn {
+        font-size: 1.05rem;
+      }
+      .quote-text {
+        font-size: 0.95rem;
+      }
+      .cover-features {
+        flex-direction: column;
+        align-items: stretch;
       }
     }
   </style>
@@ -352,7 +476,7 @@
       auto2top: true,
       mergeNavbar: true,
       topMargin: 20,
-      homepage: 'README.md',
+      homepage: 'manuscript/00_序言_在算力中心的轰鸣与窗外的落叶之间.md',
       
       // 搜索配置
       search: {
@@ -381,9 +505,8 @@
       // 插件拓展
       plugins: [
         function(hook, vm) {
-          // 每次页面渲染后，刷新公式与滚动进度
           hook.doneEach(function() {
-            // KaTeX 再次兜底渲染（如果存在未被 marked 解析的特殊块）
+            // KaTeX 再次兜底渲染
             if (window.renderMathInElement) {
               renderMathInElement(document.querySelector('.markdown-section'), {
                 delimiters: [

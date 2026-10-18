@@ -1,16 +1,36 @@
 <!-- _coverpage.md -->
 
-# 《半导体见顶了吗？》 <small>1.0</small>
+<div class="cover-badge">
+  <span class="badge-dot"></span>
+  <span class="badge-text">2026 深度思想推演 · 物理与资本</span>
+</div>
 
-> 从资本悬崖到纳秒晶格，一场关于时钟尺度与人类存在的物理推演
+# 半导体见顶了吗？
 
-- **资本与周期**：二阶导重力 · 折旧悬崖 · 瓦解的福特主义
-- **物理与阻尼**：沉重的原子 · Sim-to-Real 鸿沟 · 散热与电网
-- **宇宙与算力**：离散状态机 · 同源观察者极限 · 计算不可约
-- **中观与自洽**：能带工程 · 8个数量级代沟 · 百毫秒生命驻波
+<p class="cover-subtitle-en">From Capital Cliffs to Nanometer Lattices: A Physical Deduction on Clock Scales and Human Existence</p>
+<p class="cover-subtitle-cn">周期、算力，以及被困在百毫秒里的人类</p>
 
-[开始阅读](README.md)
-[全书大纲与推演链](大纲与推演链.md)
-[📥 下载 PDF 电子书](半导体见顶了吗.pdf)
+<div class="cover-quote-card">
+  <div class="quote-line"></div>
+  <p class="quote-text">
+    “半导体从未见顶，它只是宇宙借人类之手，在纳秒尺度上锚定的更高密度稳定结构；真正见顶的，是碳基人类自以为是宇宙轴心的傲慢。”
+  </p>
+</div>
 
-<!-- 背景渐变配置在 CSS 中 -->
+<div class="cover-features">
+  <div class="feature-tag"><span>📉</span> 资本二阶导与折旧悬崖</div>
+  <div class="feature-tag"><span>⚡</span> 物理实体与热力学硬阻尼</div>
+  <div class="feature-tag"><span>🌌</span> 宇宙状态机与计算不可约</div>
+  <div class="feature-tag"><span>🧬</span> 百毫秒中观生命驻波自洽</div>
+</div>
+
+<div class="cover-actions">
+  <a class="cta-button" href="#/manuscript/00_序言_在算力中心的轰鸣与窗外的落叶之间">
+    <span>开启阅读 · 进入序言</span>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+  </a>
+</div>
+
+<div class="cover-scroll-hint">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
+</div>
