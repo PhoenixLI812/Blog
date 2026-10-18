@@ -715,6 +715,23 @@
       var nextTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       applyTheme(nextTheme);
     });
+
+    // 封面“开启阅读”按钮与向下箭头点击平滑滚入正文
+    document.addEventListener('click', function(e) {
+      var cta = e.target.closest('.cta-button, .cover-scroll-hint');
+      if (cta) {
+        e.preventDefault();
+        var target = document.getElementById('main') || document.querySelector('.markdown-section') || document.querySelector('.content');
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          window.scrollTo({
+            top: window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      }
+    });
   </script>
 </body>
 </html>
