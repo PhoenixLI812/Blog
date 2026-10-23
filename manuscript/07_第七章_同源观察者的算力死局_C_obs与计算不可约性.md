@@ -24,16 +24,14 @@
 ![图 7-1：同源观察者的算力真子集与朗道尔测量反冲图](data:image/svg+xml;base64,77u/PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDYwMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICMwZDExMTc7IGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgc2Fucy1zZXJpZjsiPgogIDx0ZXh0IHg9IjQwIiB5PSI0NSIgZmlsbD0iI2YwZjZmYyIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9ImJvbGQiPuWQjOa6kOinguWvn+iAheeahOeul+WKm+ecn+WtkOmbhuS4juacl+mBk+WwlOa1i+mHj+WPjeWGsuWbviAo5Zu+IDctMSk8L3RleHQ+CiAgPHRleHQgeD0iNDAiIHk9IjcwIiBmaWxsPSIjOGI5NDllIiBmb250LXNpemU9IjEyIj5FbmRvcGh5c2ljYWwgT2JzZXJ2ZXIgYXMgYSBTdHJpY3QgU3Vic2V0IChDX29icyAmbHQ7Jmx0OyBDX3N5cykgJmFtcDsgVGhlcm1vZHluYW1pYyBNZWFzdXJlbWVudCBCYWNrYWN0aW9uPC90ZXh0PgogIAogIDwhLS0gT3V0ZXIgU3lzdGVtIEJveCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MCwgMTEwKSI+CiAgICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iODgwIiBoZWlnaHQ9IjQ0MCIgcng9IjEwIiBmaWxsPSIjMTYxYjIyIiBzdHJva2U9IiM1OGE2ZmYiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHRleHQgeD0iMzAiIHk9IjQwIiBmaWxsPSIjNThhNmZmIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iYm9sZCI+54mp55CG57O757uf5pW05L2TIChDb3NtaWMgU3lzdGVtOiDlhajlroflrpnmiJbpl63lkIjns7vnu58pPC90ZXh0PgogICAgPHRleHQgeD0iMzAiIHk9IjY1IiBmaWxsPSIjOGI5NDllIiBmb250LXNpemU9IjEyIj7igKIg57O757uf5oC754q25oCB56m66Ze0OiBTX3N5cyB+IDJeTiAoTiB+IDEw4oG44oGwIOeykuWtkCkgICDigKIg57O757uf5oC7566X5YqbOiBDX3N5cyAo5a6M5YWo5LiN5Y+v57qm5q+P56eSIDEwwrnCsuKBsCDmraUpPC90ZXh0PgoKICAgIDwhLS0gSW5uZXIgT2JzZXJ2ZXIgQm94IChTdWJzZXQpIC0tPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjAsIDEwMCkiPgogICAgICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNDUwIiBoZWlnaHQ9IjI4MCIgcng9IjgiIGZpbGw9IiMyMTI2MmQiIHN0cm9rZT0iI2Y4NTE0OSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgICAgPHRleHQgeD0iMjUiIHk9IjM1IiBmaWxsPSIjZjg1MTQ5IiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCI+5YaF55Sf5ZCM5rqQ6KeC5a+f6ICFIChFbmRvcGh5c2ljYWwgT2JzZXJ2ZXIpPC90ZXh0PgogICAgICA8dGV4dCB4PSIyNSIgeT0iNjAiIGZpbGw9IiNjOWQxZDkiIGZvbnQtc2l6ZT0iMTEiPuKAoiDop4Llr5/ogIXogonouqvljaDnlKjns7vnu5/nspLlrZDnmoTmnoHlsI/nnJ/lrZDpm4Y6IENfb2JzIOKKgiBDX3N5czwvdGV4dD4KICAgICAgPHRleHQgeD0iMjUiIHk9IjgwIiBmaWxsPSIjYzlkMWQ5IiBmb250LXNpemU9IjExIj7igKIg5Lq66ISR566X5YqbIH4gMTDCueKBtSBGTE9Qc++8jOS6uuexu+W3peS9nOiusOW/hiB+IDUwIGJwczwvdGV4dD4KICAgICAgPHRleHQgeD0iMjUiIHk9IjEwNSIgZmlsbD0iI2Y4NTE0OSIgZm9udC1zaXplPSIxMiIgZm9udC13ZWlnaHQ9ImJvbGQiPuaLieaZruaLieaWr+WmluegtOS6p++8mjwvdGV4dD4KICAgICAgPHRleHQgeD0iMjUiIHk9IjEyNSIgZmlsbD0iIzhiOTQ5ZSIgZm9udC1zaXplPSIxMSI+5ouJ5pmu5ouJ5pav5aaW5LiN6IO95L2P5Zyo5a6D5omA6aKE5rWL55qE57O757uf5YaF6YOo44CC6Iul6KaB6K6w5b2V57O757uf5q+P5Liq57KS5a2Q55qEPC90ZXh0PgogICAgICA8dGV4dCB4PSIyNSIgeT0iMTQ1IiBmaWxsPSIjOGI5NDllIiBmb250LXNpemU9IjExIj7nnqzml7blnZDmoIfvvIzorrDlvZXku4votKjmnKzouqvlsIblvJXlj5Hml6DpmZDpgJLlvZLoh6rmjIfmrbvplIEgKFNlbGYtUmVmZXJlbmNlIFBhcmFkb3gp44CCPC90ZXh0PgogICAgICAKICAgICAgPCEtLSBJbnNpZGUgT2JzZXJ2ZXI6IElycmVkdWNpYmlsaXR5IEJveCAtLT4KICAgICAgPHJlY3QgeD0iMjUiIHk9IjE3MCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI4NSIgcng9IjYiIGZpbGw9IiMxNjFiMjIiIHN0cm9rZT0iI2QyOTkyMiIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgIDx0ZXh0IHg9IjQwIiB5PSIxOTUiIGZpbGw9IiNkMjk5MjIiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJib2xkIj7msoPlsJTlpKvli5Llp4borqHnrpfkuI3lj6/nuqbmgKcgKENvbXB1dGF0aW9uYWwgSXJyZWR1Y2liaWxpdHkpPC90ZXh0PgogICAgICA8dGV4dCB4PSI0MCIgeT0iMjE1IiBmaWxsPSIjOGI5NDllIiBmb250LXNpemU9IjEwIj7igKIg5rKh5pyJ5Lu75L2V6Kej5p6Q5YWs5byP6IO96Lez6L+H5pe26Ze05q2l6LaF6aKR6aKE5rWL5pyq5p2lPC90ZXh0PgogICAgICA8dGV4dCB4PSI0MCIgeT0iMjM1IiBmaWxsPSIjOGI5NDllIiBmb250LXNpemU9IjEwIj7igKIg6aKE5rWL56ysIE4g5q2l57uT5p6c55qE5ZSv5LiA5pa55rOV77yM5bCx5piv562J6L+ZIE4g5q2l54mp55CG5ryU5YyW5a6M5pW05Y+R55SfPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gUmlnaHQgU2lkZTogTGFuZGF1ZXIgTGltaXQgJiBCYWNrYWN0aW9uIC0tPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTUwLCAxMDApIj4KICAgICAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjI3MCIgaGVpZ2h0PSIyODAiIHJ4PSI4IiBmaWxsPSIjMWYyNDJjIiBzdHJva2U9IiNkMjk5MjIiIHN0cm9rZS13aWR0aD0iMS4yIi8+CiAgICAgIDx0ZXh0IHg9IjIwIiB5PSIzNSIgZmlsbD0iI2QyOTkyMiIgZm9udC1zaXplPSIxMyIgZm9udC13ZWlnaHQ9ImJvbGQiPuacl+mBk+WwlOaegemZkOS4juWPjeWGsuiSuOWPkTwvdGV4dD4KICAgICAgCiAgICAgIDxyZWN0IHg9IjIwIiB5PSI1NSIgd2lkdGg9IjIzMCIgaGVpZ2h0PSI2MCIgcng9IjQiIGZpbGw9IiMyMTI2MmQiLz4KICAgICAgPHRleHQgeD0iMzAiIHk9IjgwIiBmaWxsPSIjZjg1MTQ5IiBmb250LXNpemU9IjEyIiBmb250LXdlaWdodD0iYm9sZCI+zpRRIOKJpSBrQiDCtyBUIMK3IGxuIDI8L3RleHQ+CiAgICAgIDx0ZXh0IHg9IjMwIiB5PSIxMDAiIGZpbGw9IiM4Yjk0OWUiIGZvbnQtc2l6ZT0iMTAiPuavj+aTpumZpC/lhpnlhaUgMSDmr5Tnibnkv6Hmga/lv4XpobvmjpLmlL7nmoTmnIDkvY7lup/ng608L3RleHQ+CgogICAgICA8dGV4dCB4PSIyMCIgeT0iMTQwIiBmaWxsPSIjYzlkMWQ5IiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iYm9sZCI+5rWL6YeP5LiN5piv5YWN6LS555qE77yaPC90ZXh0PgogICAgICA8dGV4dCB4PSIyMCIgeT0iMTYwIiBmaWxsPSIjOGI5NDllIiBmb250LXNpemU9IjEwIj7igKIg6KeC5a+f6ICF5q+P6K6w5b2V5LiA5Liq5b6u6KeC57KS5a2Q77yM5bCx5ZCR57O757uf6YeK5pS+54Sm6ICz5bqf54OtPC90ZXh0PgogICAgICA8dGV4dCB4PSIyMCIgeT0iMTg1IiBmaWxsPSIjOGI5NDllIiBmb250LXNpemU9IjEwIj7igKIg6K+V5Zu+5YWo55+l6KeC5rWL57O757uf55qE5b6u6KeC54q25oCB77yM5bCG5byV5Y+R5rW35ZW46Iis55qE54a15aKePC90ZXh0PgogICAgICA8dGV4dCB4PSIyMCIgeT0iMjEwIiBmaWxsPSIjZjg1MTQ5IiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iYm9sZCI+55u05o6l5bCG57O757uf5pys6Lqr5Yqg54Ot6JK45Y+R5Li654Ot5a+C77yBPC90ZXh0PgogICAgICAKICAgICAgPGxpbmUgeDE9IjIwIiB5MT0iMjM1IiB4Mj0iMjUwIiB5Mj0iMjM1IiBzdHJva2U9IiMzMDM2M2QiLz4KICAgICAgPHRleHQgeD0iMjAiIHk9IjI1NSIgZmlsbD0iIzU4YTZmZiIgZm9udC1zaXplPSIxMCI+57uT6K6677ya5YWo55+l5LiN5LuF5pWw5a2m5LiN5Y+v6IO977yM54mp55CG5Lqm56aB5q2iPC90ZXh0PgogICAgPC9nPgogIDwvZz4KPC9zdmc+)
 *图 7-1：同源观察者的算力真子集与朗道尔测量反冲图*
 
-```
-【外部物理学 (Exophysics) vs. 内部物理学 (Endophysics)】
+**外部物理学（Exophysics）vs. 内部物理学（Endophysics）**
 
-  观测维度          外部物理学 (上帝视角 / Exophysics)   内部物理学 (同源观察者 / Endophysics)
- ─────────────────────────────────────────────────────────────
-  观察者坐标        独立于系统之外的超然自由度           物理载体由系统内部粒子完全构成 (真子集)
-  测量行为干扰      零能量消耗、零微观反冲、零信息排热   每一次观测必须经历物理碰撞与量子纠缠
-  时间流态体验      块状宇宙 (过去、现在、未来并存)       有限寄存器逐帧覆写带来的“主观时间流逝”
-  全局可测度        全相空间可解析、确定性几何展开       面临自指不完备性死锁与计算不可约性封杀
-```
+| 观测维度 | 外部物理学（上帝视角 / Exophysics） | 内部物理学（同源观察者 / Endophysics） |
+| :--- | :--- | :--- |
+| 观察者坐标 | 独立于系统之外的超然自由度 | 物理载体由系统内部粒子完全构成（真子集） |
+| 测量行为干扰 | 零能量消耗、零微观反冲、零信息排热 | 每一次观测必须经历物理碰撞与量子纠缠 |
+| 时间流态体验 | 块状宇宙（过去、现在、未来并存） | 有限寄存器逐帧覆写带来的“主观时间流逝” |
+| 全局可测度 | 全相空间可解析、确定性几何展开 | 面临自指不完备性死锁与计算不可约性封杀 |
 
 ### 1. 外部物理学（Exophysics）：上帝视角的超然特权
 假想中的外部观察者，拥有独立于被测系统之外的时空维度。
@@ -61,28 +59,26 @@ $$\text{若 } \Omega_{\text{observer}} \subset \Omega_{\text{system}} \quad \imp
 这一不等式在逻辑与物理上引爆了三重无法化解的致命死锁：
 
 ```
-               ┌──────────────────────────────────────────────────────────┐
-               │                物理系统整体 (System)                     │
-               │  状态空间大小: S_system    整体计算容量: C_system         │
-               │                                                          │
-               │          ┌───────────────────────────────────┐           │
-               │          │    内生同源观察者 (Observer)       │           │
-               │          │                                   │           │
-               │          │  物理载体占用粒子真子集           │           │
-               │          │  可用算力: C_obs ≪ C_system       │           │
-               │          │                                   │           │
-               │          │  [试图在内部全息记录系统状态]     │           │
-               │          └───────────────┬───────────────────┘           │
-               │                          │ 写入 1 比特测量结果           │
-               │                          ▼ 必须消耗微观介质              │
-               │               ┌───────────────────────┐                  │
-               │               │ 哥德尔式的自指递归死锁│                  │
-               │               │ 存储空间 > 宇宙总原子 │                  │
-               │               └──────────┬────────────┘                  │
-               │                          │                               │
-               │                          ▼ 强制向外排放废热              │
-               │               [朗道尔极限导致系统热寂蒸发]               │
-               └──────────────────────────────────────────────────────────┘
+   ┌──────────────────────────────────────────────────────────
+   │  【物理系统整体 (System)】
+   │   状态空间大小: S_system    整体计算容量: C_system
+   │
+   │      ┌───────────────────────────────────────────────
+   │      │  【内生同源观察者 (Observer)】
+   │      │   • 物理载体占用粒子真子集
+   │      │   • 可用算力: C_obs ≪ C_system
+   │      │   • 试图在内部全息记录系统状态
+   │      └───────────────┬───────────────────────────────
+   │                      │ 写入 1 比特测量结果
+   │                      ▼ 必须消耗微观介质
+   │          ┌───────────────────────────────────────────
+   │          │  【哥德尔式的自指递归死锁】
+   │          │   所需存储介质 > 宇宙总原子数
+   │          └───────────┬───────────────────────────────
+   │                      │
+   │                      ▼ 强制向外排放废热
+   │          [ 朗道尔极限导致系统热寂蒸发 ]
+   └──────────────────────────────────────────────────────────
 ```
 
 ### 1. 哥德尔式的自指存储死锁（Self-Referential Deadlock）
