@@ -144,8 +144,8 @@
 
     /* 表格 */
     .markdown-section table {
-      display: table;
-      width: 100%;
+      display: table !important;
+      width: 100% !important;
       border-collapse: collapse;
       margin: 1.6rem 0;
       border-radius: 8px;
@@ -158,11 +158,13 @@
       font-weight: 600;
       padding: 12px 16px;
       border: 1px solid var(--border-color);
+      text-align: left;
     }
 
     .markdown-section td {
       padding: 11px 16px;
       border: 1px solid var(--border-color);
+      text-align: left;
     }
 
     .markdown-section tr:nth-child(2n) {
@@ -491,6 +493,27 @@
   <button class="theme-toggle-btn" id="themeBtn" title="切换深色/浅色模式">🌓</button>
 
   <script>
+    // 强制穿透浏览器与 GitHub Pages CDN 对 .md 章节文件的缓存
+    (function() {
+      var BUILD_VER = '20261023v5';
+      try {
+        if (localStorage.getItem('blog-build-ver') !== BUILD_VER) {
+          localStorage.removeItem('docsify.search.expires');
+          localStorage.removeItem('docsify.search.index');
+          localStorage.setItem('blog-build-ver', BUILD_VER);
+        }
+      } catch (e) {}
+
+      var origOpen = XMLHttpRequest.prototype.open;
+      XMLHttpRequest.prototype.open = function(method, url) {
+        if (typeof url === 'string' && /\.md(\?|$)/i.test(url)) {
+          var sep = url.indexOf('?') === -1 ? '?' : '&';
+          arguments[1] = url + sep + '_v=' + BUILD_VER;
+        }
+        return origOpen.apply(this, arguments);
+      };
+    })();
+
     window.$docsify = {
       name: '《半导体见顶了吗？》',
       repo: 'https://github.com/PhoenixLI812/Blog',
